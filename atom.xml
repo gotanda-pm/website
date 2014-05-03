@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Gotanda.pm</title>
-<link rel="alternate" href="http://localhost:5000:5000/" />
+<link rel="alternate" href="http://gotanda-pm.github.io/" />
 <author>karupanerura</author>
 <generator uri="https://github.com/Songmu/p5-Riji" version="0.0.13">Perl Riji</generator>
-<id>tag:localhost,2014-05-03:</id>
+<id>tag:gotanda-pm.github.io,2014-05-03:</id>
 <entry>
 <title type="text">Gotanda.pmのオフィシャルサイトを開設しました</title>
-<link href="http://localhost:5000:5000/entry/2014-05-03-01.html" />
+<link href="http://gotanda-pm.github.io/entry/2014-05-03-01.html" />
 <content><![CDATA[<h1>Gotanda.pmのオフィシャルサイトを開設しました</h1>
 
 <p>Gotanda.pmのオフィシャルウェブサイトを開設しました事をお知らせ致します。
@@ -23,8 +23,8 @@ Gotanda.pm自体の概要はメニュー(About "Gotanda.pm")よりご確認く�
 また、会場候補のキャパシティに上限がある為、他のカンファレンスと同様にATND等で事前参加登録を行う予定です。
 Googleカレンダーを登録するだけでは参加はできかねますのでご注意下さい。(ATND等へのリンクを記載致しますのでそちらよりご登録下さい。)</p>
 ]]></content>
-<id>tag:localhost,2014-05-03:entry-2014-05-03-01.html</id>
-<published>2014-05-03T16:16:52+0900</published>
-<updated>2014-05-03T23:16:52+09:00</updated>
+<id>tag:gotanda-pm.github.io,2014-05-03:entry-2014-05-03-01.html</id>
+<published>2014-05-03T22:22:48+0900</published>
+<updated>2014-05-03T23:22:48+09:00</updated>
 </entry>
 </feed>
