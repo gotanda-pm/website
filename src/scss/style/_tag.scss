@@ -1,0 +1,6 @@
+section.entries-by-tag {
+    > h1:before {
+        content: "Tag:";
+        margin-right: .5em;
+    }
+}

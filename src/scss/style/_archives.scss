@@ -1,0 +1,10 @@
+ul.archives {
+    list-style-type: none;
+    > li {
+        time {
+            margin-right: 2em;
+            &:before { content: "[" }
+            &:after  { content: "]" }
+        }
+    }
+}

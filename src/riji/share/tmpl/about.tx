@@ -1,0 +1,11 @@
+: cascade layout::base
+
+: around title -> {
+<: $article.title :> | <: $blog.title :>
+: }
+
+: around content -> {
+<section class="about">
+  <: $article.html_body() | mark_raw :>
+</section>
+: }
