@@ -11,6 +11,17 @@ section.entry {
             margin-left: 1em;
         }
     }
+
+    .share-buttons {
+        @include display-box;
+        > .twitter,
+        > .facebook,
+        > .hatena,
+        > .google {
+            height: 20px;
+            margin: 8px 5px 0;
+        }
+    }
 }
 
 ul.tags {
@@ -70,6 +81,7 @@ nav.paginate {
 }
 
 dl.meta {
+  @include clearfix;
     margin-top: 2em;
 
     dt {
