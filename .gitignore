@@ -2,3 +2,6 @@ node_modules/
 bower_components/
 .sass-cache
 access_logs.db
+.ruby-version
+.node-version
+.perl-version
