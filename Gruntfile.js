@@ -12,12 +12,14 @@ module.exports = function (grunt) {
     compass: {
       production: {
         options: {
+          bundleExec: true,
           config:      "compass.rb",
           environment: 'production'
         }
       },
       development: {
         options: {
+          bundleExec: true,
           config:      "compass.rb",
           environment: "development"
         }
