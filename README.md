@@ -5,15 +5,21 @@ git subtree pull --prefix=htdocs git@github.com:gotanda-pm/gotanda-pm.github.io.
 npm install -g grunt-cli
 npm install
 bundle install
-cpanm Riji
+carton install
 ```
 
 Easy usage
 ==========================================================================
-build
+build(CSS/JS)
 --------------------------------------------------------------------------
 ```sh
 grunt build
+```
+
+publish(Riji)
+--------------------------------------------------------------------------
+```sh
+./riji.sh publish
 ```
 
 edit and preview

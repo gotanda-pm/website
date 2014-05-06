@@ -1,5 +1,5 @@
 node_modules/
-bower_components/
+local/
 .sass-cache
 access_logs.db
 .ruby-version
