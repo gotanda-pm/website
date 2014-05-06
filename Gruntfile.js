@@ -11,6 +11,11 @@ module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
     clean: ["htdocs/css/", "htdocs/js/"],
+    shell: {
+      publish: {
+        command: './riji.sh publish'
+      }
+    },
     compass: {
       production: {
         options: {
@@ -84,6 +89,7 @@ module.exports = function (grunt) {
   grunt.registerTask("css",     ["compass:production"]);
   grunt.registerTask("js",      ["uglify:js"]);
   grunt.registerTask("build",   ["css", "js"]);
+  grunt.registerTask("publish", ["shell:publish"]);
 
   grunt.registerTask("server",  ["configureProxies", "connect:app", "riji", "watch"]);
   grunt.registerTask("default", ["server"]);
