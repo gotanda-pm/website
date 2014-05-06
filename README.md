@@ -19,7 +19,7 @@ grunt build
 publish(Riji)
 --------------------------------------------------------------------------
 ```sh
-./riji.sh publish
+grunt publish
 ```
 
 edit and preview
