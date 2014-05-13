@@ -1,0 +1,47 @@
+/*
+# table 的な何か
+
+ */
+table {
+    @include border-radius(4px);
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    padding: 5px;
+    background: #fff;
+    color: #aaa;
+    border: 1px solid #e1e1e1;
+
+    > thead,
+    > tbody,
+    > tfoot {
+        > tr {
+            > th,
+            > td {
+                padding: 4px 10px;
+                line-height: 2;
+                vertical-align: middle;
+                border-top: 1px solid #ccc;
+                text-align: center;
+            }
+
+            > th {
+                background: #000;
+            }
+
+            th:first-child,
+            td:first-child {
+                width: 240px;
+            }
+        }
+    }
+
+    > thead:first-child {
+        > tr:first-child {
+            > th,
+            > td {
+                border-top: 0;
+            }
+        }
+    }
+}
