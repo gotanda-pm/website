@@ -3,8 +3,8 @@
 <title>Gotanda.pm</title>
 <link rel="alternate" href="http://gotanda-pm.github.io/" />
 <author>karupanerura</author>
-<generator uri="https://github.com/Songmu/p5-Riji" version="0.0.13">Perl Riji</generator>
-<id>tag:gotanda-pm.github.io,2014-05-05:</id>
+<generator uri="https://github.com/Songmu/p5-Riji" version="0.0.14">Perl Riji</generator>
+<id>tag:gotanda-pm.github.io,2014-05-13:</id>
 <entry>
 <title type="text">Gotanda.pmのオフィシャルサイトを開設しました</title>
 <link href="http://gotanda-pm.github.io/entry/2014-05-03-01.html" />
@@ -17,7 +17,7 @@
 Gotanda.pm自体の概要はメニュー(About)よりご確認ください。
 今後はこちらにカンファレンスの開催情報等を配信していきます。RSSも提供されますのでご利用下さい。</p>
 
-<p>なお、Authoring Toolとしては<a href="https://twitter.com/songmu">@songumu</a>さんの<a href="https://github.com/Songmu/p5-Riji">Riji</a>を利用させて頂きました。
+<p>なお、Authoring Toolとしては<a href="https://twitter.com/songmu">@songmu</a>さんの<a href="https://github.com/Songmu/p5-Riji">Riji</a>を利用させて頂きました。
 この場を借りて御礼を申し上げます。</p>
 
 <p>初回カンファレンス、Gotanda.pm#1については会場/日程を調整中です。6月上旬に開催となる見込みです。
@@ -28,6 +28,6 @@ Googleカレンダーを登録するだけでは参加はできかねますの�
 ]]></content>
 <id>tag:gotanda-pm.github.io,2014-05-03:entry-2014-05-03-01.html</id>
 <published>2014-05-03T09:09:47+0900</published>
-<updated>2014-05-04T00:08:35+09:00</updated>
+<updated>2014-05-13T11:11:25+09:00</updated>
 </entry>
 </feed>
