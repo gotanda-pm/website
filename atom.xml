@@ -6,31 +6,6 @@
 <generator uri="https://github.com/Songmu/p5-Riji" version="0.0.14">Perl Riji</generator>
 <id>tag:gotanda-pm.github.io,2014-05-13:</id>
 <entry>
-<title type="text">Gotanda.pmのオフィシャルサイトを開設しました</title>
-<link href="http://gotanda-pm.github.io/entry/2014-05-03-01.html" />
-<author>
-<name>karupanerura</name>
-</author>
-<content><![CDATA[<h1>Gotanda.pmのオフィシャルサイトを開設しました</h1>
-
-<p>Gotanda.pmのオフィシャルウェブサイトを開設しました事をお知らせ致します。
-Gotanda.pm自体の概要はメニュー(About)よりご確認ください。
-今後はこちらにカンファレンスの開催情報等を配信していきます。RSSも提供されますのでご利用下さい。</p>
-
-<p>なお、Authoring Toolとしては<a href="https://twitter.com/songmu">@songmu</a>さんの<a href="https://github.com/Songmu/p5-Riji">Riji</a>を利用させて頂きました。
-この場を借りて御礼を申し上げます。</p>
-
-<p>初回カンファレンス、Gotanda.pm#1については会場/日程を調整中です。6月上旬に開催となる見込みです。
-予定の決定をいちはやく知りたい方は<a href="https://www.google.com/calendar/embed?src=sfv70iikm6dpj7anvu0m0jjt1s%40group.calendar.google.com&amp;ctz=Asia/Tokyo">Googleカレンダー</a>をご登録下さい。
-日程が決まり次第、Googleカレンダーに登録致します。
-また、会場候補のキャパシティに上限がある為、他のカンファレンスと同様にATND等で事前参加登録を行う予定です。
-Googleカレンダーを登録するだけでは参加はできかねますのでご注意下さい。(ATND等へのリンクを記載致しますのでそちらよりご登録下さい。)</p>
-]]></content>
-<id>tag:gotanda-pm.github.io,2014-05-03:entry-2014-05-03-01.html</id>
-<published>2014-05-03T09:09:47+0900</published>
-<updated>2014-05-13T11:11:25+09:00</updated>
-</entry>
-<entry>
 <title type="text">Gotanda.pm #1 を開催します</title>
 <link href="http://gotanda-pm.github.io/entry/2014-05-13-01.html" />
 <author>
@@ -62,57 +37,70 @@ Googleカレンダーを登録するだけでは参加はできかねますの�
 <thead>
 <tr>
 <th style="text-align:left;"> 時間         </th>
-<th style="text-align:left;"> 内容       </th>
+<th style="text-align:left;"> 内容                 </th>
+<th style="text-align:left;"> トーク内容                                     </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;"> 18:30〜19:00 </td>
-<td style="text-align:left;"> 参加者受付 </td>
+<td style="text-align:left;"> 参加者受付           </td>
+<td style="text-align:left;"> -                                              </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 19:00〜19:20 </td>
-<td style="text-align:left;"> Talk(1)    </td>
+<td style="text-align:left;"> Talk: songmu         </td>
+<td style="text-align:left;"> (未定)                                         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 19:20〜19:40 </td>
-<td style="text-align:left;"> Talk(2)    </td>
+<td style="text-align:left;"> Talk: __papix__  </td>
+<td style="text-align:left;"> (未定)                                         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 19:40〜20:00 </td>
-<td style="text-align:left;"> Talk(3)    </td>
+<td style="text-align:left;"> Talk: saisa6153      </td>
+<td style="text-align:left;"> (未定)                                         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:00〜20:10 </td>
-<td style="text-align:left;"> 休憩       </td>
+<td style="text-align:left;"> 休憩                 </td>
+<td style="text-align:left;"> -                                              </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:10〜20:15 </td>
-<td style="text-align:left;"> LT(1)      </td>
+<td style="text-align:left;"> LT: mizuki_r         </td>
+<td style="text-align:left;"> (未定)                                         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:15〜20:20 </td>
-<td style="text-align:left;"> LT(2)      </td>
+<td style="text-align:left;"> LT: tokuhirom        </td>
+<td style="text-align:left;"> ろーからいざーかなにか                         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:20〜20:25 </td>
-<td style="text-align:left;"> LT(3)      </td>
+<td style="text-align:left;"> LT: mihyaeru21       </td>
+<td style="text-align:left;"> (未定)                                         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:25〜20:30 </td>
-<td style="text-align:left;"> LT(4)      </td>
+<td style="text-align:left;"> LT: yusukebe         </td>
+<td style="text-align:left;"> (未定)                                         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:30〜20:35 </td>
-<td style="text-align:left;"> LT(5)      </td>
+<td style="text-align:left;"> LT: akihiro_0228     </td>
+<td style="text-align:left;"> (未定)                                         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:35〜20:40 </td>
-<td style="text-align:left;"> LT(6)      </td>
+<td style="text-align:left;"> LT: masasuz          </td>
+<td style="text-align:left;"> とある企業のperlのモジュール管理の歴史的なやつ </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:40〜      </td>
-<td style="text-align:left;"> 懇親会     </td>
+<td style="text-align:left;"> 懇親会               </td>
+<td style="text-align:left;"> -                                              </td>
 </tr>
 </tbody>
 </table>
@@ -120,6 +108,31 @@ Googleカレンダーを登録するだけでは参加はできかねますの�
 ]]></content>
 <id>tag:gotanda-pm.github.io,2014-05-13:entry-2014-05-13-01.html</id>
 <published>2014-05-13T11:11:29+0900</published>
-<updated>2014-05-13T08:11:29+09:00</updated>
+<updated>2014-05-13T19:37:28+09:00</updated>
+</entry>
+<entry>
+<title type="text">Gotanda.pmのオフィシャルサイトを開設しました</title>
+<link href="http://gotanda-pm.github.io/entry/2014-05-03-01.html" />
+<author>
+<name>karupanerura</name>
+</author>
+<content><![CDATA[<h1>Gotanda.pmのオフィシャルサイトを開設しました</h1>
+
+<p>Gotanda.pmのオフィシャルウェブサイトを開設しました事をお知らせ致します。
+Gotanda.pm自体の概要はメニュー(About)よりご確認ください。
+今後はこちらにカンファレンスの開催情報等を配信していきます。RSSも提供されますのでご利用下さい。</p>
+
+<p>なお、Authoring Toolとしては<a href="https://twitter.com/songmu">@songmu</a>さんの<a href="https://github.com/Songmu/p5-Riji">Riji</a>を利用させて頂きました。
+この場を借りて御礼を申し上げます。</p>
+
+<p>初回カンファレンス、Gotanda.pm#1については会場/日程を調整中です。6月上旬に開催となる見込みです。
+予定の決定をいちはやく知りたい方は<a href="https://www.google.com/calendar/embed?src=sfv70iikm6dpj7anvu0m0jjt1s%40group.calendar.google.com&amp;ctz=Asia/Tokyo">Googleカレンダー</a>をご登録下さい。
+日程が決まり次第、Googleカレンダーに登録致します。
+また、会場候補のキャパシティに上限がある為、他のカンファレンスと同様にATND等で事前参加登録を行う予定です。
+Googleカレンダーを登録するだけでは参加はできかねますのでご注意下さい。(ATND等へのリンクを記載致しますのでそちらよりご登録下さい。)</p>
+]]></content>
+<id>tag:gotanda-pm.github.io,2014-05-03:entry-2014-05-03-01.html</id>
+<published>2014-05-03T09:09:47+0900</published>
+<updated>2014-05-13T11:11:25+09:00</updated>
 </entry>
 </feed>
