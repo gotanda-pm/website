@@ -4,7 +4,64 @@
 <link rel="alternate" href="http://gotanda-pm.github.io/" />
 <author>karupanerura</author>
 <generator uri="https://github.com/Songmu/p5-Riji" version="0.0.14">Perl Riji</generator>
-<id>tag:gotanda-pm.github.io,2014-06-11:</id>
+<id>tag:gotanda-pm.github.io,2014-06-16:</id>
+<entry>
+<title type="text">Gotanda.pm #1 を開催しました</title>
+<link href="http://gotanda-pm.github.io/entry/2014-06-12-01.html" />
+<author>
+<name>karupanerura</name>
+</author>
+<content><![CDATA[<h1>Gotanda.pm #1 を開催しました</h1>
+
+<p>記念スべき第一回目のTech Conferenceを開催しました。<br/>
+発表者9名、聴講者27名、総勢の方がいらっしゃいました。<br/>
+梅雨の時期でお足元の悪い中お越し頂き、誠にありがとうございます。<br/>
+次回以降も継続していきたいと思いますので是非よろしくお願いいたします。</p>
+
+<h2>お知らせ</h2>
+
+<p>懇親会費として参加者から1人3000円を頂いておりましたが、<br/>
+計3時間、好きに注文頂いて飲み食いした結果、なんと少し余ってしまいました。(11670円/1人当たり353円)<br/>
+つきましては、この分は次回の懇親会費に宛てさせて頂きたいと思います。<br/>
+返金して欲しいという方がいらっしゃいましたらお申し出下さい。(個別に返金させて頂きます)</p>
+
+<h2>謝辞・宣伝</h2>
+
+<p>聴講者として参加頂きました皆さん、ありがとうございました。<br/>
+次回以降は是非LTやトークにも挑戦してみてください！</p>
+
+<p>トーク/LTと発表して頂きました皆さん、ありがとうございました。<br/>
+Gotanda.pmとして良いスタートを切る事が出来たのは発表者の皆さんのお陰だと思います。<br/>
+なお、発表頂きました皆さんのなかには<a href="http://yapcasia.org/2014/">YAPC::Asia 2014</a>にてトークを応募している方もいらっしゃいます。<br/>
+是非、ご覧になっては如何でしょうか！</p>
+
+<ul>
+<li>songmuさん:    <a href="http://yapcasia.org/2014/talk/show/51921d12-ec7f-11e3-b82e-98666aeab6a4">実務に役立つPerlライブコーディング～Webアプリケーション編</a></li>
+<li>songmuさん:    <a href="http://yapcasia.org/2014/talk/show/b735a908-ec7b-11e3-b82e-98666aeab6a4">息をするようにCPANにモジュールを書けるになった経緯とその結果起こったこと</a></li>
+<li>saisa6153さん: <a href="http://yapcasia.org/2014/talk/show/db4e9d60-f183-11e3-b7e8-e4a96aeab6a4">今から始めるレガシーコード改善レポート</a></li>
+<li>papixさん:     <a href="http://yapcasia.org/2014/talk/show/680c4b3e-ecb2-11e3-b82e-98666aeab6a4">今日から始める! BOTで楽しく生活カイゼン!?</a></li>
+<li>tokuhiromさん: <a href="http://yapcasia.org/2014/talk/show/66c55626-eba9-11e3-bd6d-c7a06aeab6a4">Localizer - ウェブサイト他言語化フレームワーク作りました!</a></li>
+</ul>
+
+
+<p>会場を提供頂きました<a href="http://www.mobilefactory.jp/">モバイルファクトリー</a>さん、ありがとうございました。<br/>
+会場準備から会場復旧、受付まで、かなりの部分をお手伝い頂きました。</p>
+
+<p>なお、モバイルファクトリーさんでは現在、<a href="http://www.mobilefactory.jp/recruit/detail/category.html#caPerl">Perlのエンジニアを募集</a>しているようです。<br/>
+以下のような環境に興味のアル方は、オフィスの見学など相談してみてはいかがでしょうか？</p>
+
+<ul>
+<li>無限に野菜ジュースが飲める</li>
+<li>全社員デュアルディスプレイ(24インチフルHD * 2)</li>
+<li>残業せずにさくっと帰る文化</li>
+<li>全社員がIRCを利用</li>
+</ul>
+
+]]></content>
+<id>tag:gotanda-pm.github.io,2014-06-16:entry-2014-06-12-01.html</id>
+<published>2014-06-16T29:29:17+0900</published>
+<updated>2014-06-16T20:29:17+09:00</updated>
+</entry>
 <entry>
 <title type="text">Gotanda.pm #1 を開催します</title>
 <link href="http://gotanda-pm.github.io/entry/2014-05-13-01.html" />
