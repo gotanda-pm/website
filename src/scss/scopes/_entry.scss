@@ -1,0 +1,10 @@
+/*
+# entry-scope
+ */
+.entry-scope {
+  margin: $margin ($margin / 2);
+
+  > article {
+    @extend %entry;
+    }
+  }

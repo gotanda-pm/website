@@ -1,0 +1,26 @@
+/*
+# tag-scope
+ */
+.tags-scope {
+  margin: $margin $margin ($margin * 2);
+
+  > h3 {
+    margin-bottom: 20px;
+    font-size: $font-size-large;
+    }
+  .tags {
+    > li {
+      display: inline-block;
+
+      a {
+        display: block;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #0f0f0f;
+        background: #f8f8f8;
+        border-radius: 6px;
+        border: 1px solid rgba(0,0,0,0.3);
+        }
+      }
+    }
+  }

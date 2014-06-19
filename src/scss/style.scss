@@ -1,12 +1,9 @@
-@import "_import";
-@import "_variables";
 
-@import "style/base";
-@import "style/layout";
-@import "style/menu";
-@import "style/article";
-@import "style/about";
-@import "style/tag";
-@import "style/table";
-@import "style/archives";
-@import "style/gotop";
+@import "compass";
+@import "compass/reset";
+
+@import "variables";
+
+@import "base";
+@import "modules";
+@import "scopes";

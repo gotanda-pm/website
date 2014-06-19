@@ -1,0 +1,115 @@
+/*
+# .site-scope
+ */
+.site-scope {
+  max-width: 1024px;
+
+  > .header {
+    margin: 10px;
+    margin-bottom: 20px;
+
+    > .title {
+      margin-bottom: 10px;
+
+      > a {
+        display: block;
+        text-decoration: none;
+        font-size: $font-size-xlarge;
+        color: #fff;
+        text-shadow: 1px 1px rgba(255, 255, 255, 0.6);
+
+        &:first-letter {
+          color: #f00;
+          }
+        }
+      }
+    .description {
+      font-size: $font-size-small;
+      letter-spacing: 1.5px;
+      }
+    }
+  .site-menu-scope {
+    width: 100%;
+    min-height: 48px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    > .open-menu {
+      display: none;
+      margin-bottom: $margin;
+      color: #000;
+      padding: $margin 0;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 6px;
+      background: #f8f8f8;
+
+      @media #{$device-phone} {
+        display: block;
+        }
+      }
+
+    > .menu {
+      display: flex;
+      flex-direction: row;
+
+      @media #{$device-phone} {
+        flex-direction: column;
+        }
+
+      > li {
+        flex-grow: 1;
+        width: 100%;
+
+        > a {
+          display: block;
+          width: 100%;
+          padding: 15px 0;
+          font-family: 'Oswald', sans-serif;
+          letter-spacing: 1.5px;
+          text-align: center;
+          text-decoration: none;
+          text-shadow: 1px 1px rgba(0,0,0,0.1);
+          color: #f8f8f8;
+          background: #555;
+          border-left:   1px solid rgba(255,255,255,0.05);
+          border-top:    1px solid rgba(255,255,255,0.05);
+          border-right:  1px solid rgba(000,000,000,0.1);
+          border-bottom: 1px solid rgba(000,000,000,0.1);
+          }
+        }
+      }
+    }
+  > .content {
+    margin: $margin $margin ($margin * 2);
+    }
+  > .btn-gotop {
+    display: block;
+    float: right;
+    clear: both;
+    margin-right: 12px;
+    font-size: 200%;
+    text-align: right;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    }
+  > .footer {
+    margin: $margin;
+    margin-top: ($margin * 8);
+
+    .author,
+    .powered-by {
+      display: block;
+      font-size: $font-size-small;
+      text-align: right;
+      letter-spacing: 1.5px;
+      }
+    .copyright {
+      display: block;
+      text-align: center;
+      letter-spacing: 1.5px;
+      }
+    }
+  }

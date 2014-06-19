@@ -1,10 +1,24 @@
 : macro entry -> $entry, $opt {
-<section class="entry">
+<section class="entry-scope">
   <article>
     <: $entry.html_body() | mark_raw :>
-  </article>
   : if !$opt.no_aside {
   <aside>
+    <dl class="meta">
+      <dt class="author">created by</dt>
+      <dd class="author"><: $entry.created_by() :></dd>
+
+      <dt class="time">created at</dt>
+      <dd class="time"><time><: $entry.published_at().strftime('%Y-%m-%d %H:%M') :></time></dd>
+
+      <dt class="author">last modified by</dt>
+      <dd class="author"><: $entry.last_modified_by() :></dd>
+
+      <dt class="time">last modified at</dt>
+      <dd class="time"><: $entry.last_modified_at().strftime('%Y-%m-%d %H:%M') :></dd>
+    </dl>
+  </aside>
+  <aside class="tags-scope">
     : if $entry.tags().size() {
       <ul class="tags">
         : for $entry.tags() -> $tag {
@@ -12,52 +26,45 @@
         : }
       </ul>
     : }
-    <dl class="meta">
-      <dt class="author">created by</dt>
-      <dd class="author"><: $entry.created_by() :></dd>
-      <dt class="time">created at</dt>
-      <dd class="time"><time><: $entry.published_at().strftime('%Y-%m-%d %H:%M') :></time></dd>
-      <dt class="author">last modified by</dt>
-      <dd class="author"><: $entry.last_modified_by() :></dd>
-      <dt class="time">last modified at</dt>
-      <dd class="time"><: $entry.last_modified_at().strftime('%Y-%m-%d %H:%M') :></dd>
-    </dl>
   </aside>
-  <aside class="share-buttons">
-    <div class="hatena">
-      <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-    </div>
-    <div class="twitter">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="karupanerura" data-lang="ja" data-hashtags="gotanda.pm">ツイート</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    </div>
-    <div class="facebook">
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=330602466999729&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-    </div>
-    <div class="fb-share-button" data-type="button_count"></div>
-    <div class="google">
-      <!-- 共有ボタン を表示したい位置に次のタグを貼り付けてください。 -->
-      <div class="g-plus" data-action="share"></div>
+  <aside class="share-buttons-scope">
+    <ul class="share-buttons">
+      <li class="hatena">
+        <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+      </li>
+      <li class="twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="karupanerura" data-lang="ja" data-hashtags="gotanda.pm">ツイート</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </li>
+      <li class="facebook">
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=330602466999729&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="fb-share-button" data-type="button_count"></div>
+      </li>
+      <li class="google">
+        <!-- 共有ボタン を表示したい位置に次のタグを貼り付けてください。 -->
+        <div class="g-plus" data-action="share"></div>
 
-      <!-- 最後の 共有 タグの後に次のタグを貼り付けてください。 -->
-      <script type="text/javascript">
-        window.___gcfg = {lang: 'ja'};
+        <!-- 最後の 共有 タグの後に次のタグを貼り付けてください。 -->
+        <script type="text/javascript">
+          window.___gcfg = {lang: 'ja'};
 
-        (function() {
-          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-          po.src = 'https://apis.google.com/js/platform.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-        })();
-      </script>
-    </div>
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+      </li>
+    </ul>
   </aside>
   : }
+  </article>
 </section>
 : }

@@ -15,31 +15,41 @@
     <script src="/js/app.js" async="async" defer="defer"></script>
   </head>
   <body>
-    <header>
-      <h1 id="site-title"><a href="<: uri_for('/') :>">Gotanda.pm</a></h1>
-      <p class="decription">五反田を中心に活動するPerlの技術者コミュニティ</p>
-      : if !$hide_menu {
-        <nav class="main-menu">
-          <a href="javascript:void(0)" class="open-menu">MENU</a>
-          <ul>
-            <li><a href="<: uri_for('/')              :>">Top</a></li>
-            <li><a href="<: uri_for('/about.html')    :>">About</a></li>
-            <li><a href="<: uri_for('/atom.xml')      :>">RSS</a></li>
-            <li><a href="<: uri_for('/archives.html') :>">Archive</a></li>
-            <li><a href="https://www.google.com/calendar/embed?src=sfv70iikm6dpj7anvu0m0jjt1s%40group.calendar.google.com&ctz=Asia/Tokyo">Calendar</a></li>
-            <li><a href="https://github.com/gotanda-pm/">Github</a></li>
-          </ul>
-        </nav>
-      : }
-    </header>
-    <main id="content">
-    : block content -> { }
-    </main>
-    <a href="javascript:void(0)" class="btn-gotop">&#9757</a>
-    <footer>
-      <small class="author">Author: <a href="https://github.com/<: uri($blog.author) :>">@<: $blog.author :></a>.</small>
-      <small class="powerd-by">Powerd by: <a href="https://github.com/Songmu/p5-Riji">Riji</a>.</small>
-      <small class="copyright">&copy; Gotanda.pm</small>
-    </footer>
+
+    <article class="site-scope">
+
+      <header class="header">
+        <h1 class="title">
+          <a href="<: uri_for('/') :>">Gotanda.pm</a>
+        </h1>
+        <p class="description">五反田を中心に活動するPerlの技術者コミュニティ</p>
+        : if !$hide_menu {
+          <nav class="site-menu-scope">
+            <a href="javascript:void(0)" class="open-menu">MENU</a>
+            <ul class="menu">
+              <li><a href="<: uri_for('/')              :>">Top</a></li>
+              <li><a href="<: uri_for('/about.html')    :>">About</a></li>
+              <li><a href="<: uri_for('/atom.xml')      :>">RSS</a></li>
+              <li><a href="<: uri_for('/archives.html') :>">Archive</a></li>
+              <li><a href="https://www.google.com/calendar/embed?src=sfv70iikm6dpj7anvu0m0jjt1s%40group.calendar.google.com&ctz=Asia/Tokyo">Calendar</a></li>
+              <li><a href="https://github.com/gotanda-pm/">Github</a></li>
+            </ul>
+          </nav>
+        : }
+      </header>
+
+      <div class="content">
+      : block content -> { }
+      </div>
+
+      <a href="javascript:void(0)" class="btn-gotop">&#9757</a>
+
+      <footer class="footer">
+        <small class="author">Author: <a href="https://github.com/<: uri($blog.author) :>">@<: $blog.author :></a>.</small>
+        <small class="powered-by">Powerd by: <a href="https://github.com/Songmu/p5-Riji">Riji</a>.</small>
+        <small class="copyright">&copy; Gotanda.pm</small>
+      </footer>
+    </article>
+
   </body>
 </html>

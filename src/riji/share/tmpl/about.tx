@@ -5,7 +5,7 @@
 : }
 
 : around content -> {
-<section class="about">
+<section class="about-scope">
   <: $article.html_body() | mark_raw :>
 </section>
 : }

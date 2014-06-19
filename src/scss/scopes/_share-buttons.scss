@@ -1,0 +1,18 @@
+/*
+# share-buttons-scope
+ */
+.share-buttons-scope {
+  .share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    > li {
+      height: 20px;
+      line-height: 1.5;
+      }
+    .facebook {
+      margin-top: -4px;
+      }
+    }
+  }

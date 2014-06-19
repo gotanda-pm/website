@@ -1,0 +1,36 @@
+/*
+# archives
+ */
+.archive-scope {
+  @extend %entry;
+
+  > .title {
+    font-size: $font-size-large;
+    margin-bottom: ($margin * 2);
+    }
+  > .archives {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+
+    > li {
+      display: flex;
+      time {
+        display: block;
+        width: 20%;
+        text-align: center;
+        &:before {
+          content: '[';
+          }
+        &:after {
+          content: ']';
+          }
+        }
+      a {
+        display: block;
+        width: 80%;
+        line-height: 1.5;
+        }
+      }
+    }
+  }

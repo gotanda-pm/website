@@ -1,0 +1,51 @@
+/*
+# entries
+
+entriyや長文を記載するためのUI定義。
+
+ */
+%entry {
+  margin-bottom: 20px;
+  padding: $margin $margin ($margin * 2);
+  background: #f8f8f8;
+  border-radius: 4px;
+  color: #0f0f0f;
+  font-family: $font-family;
+  line-height: 1.5;
+  letter-spacing: 1px;
+
+  %_header {
+    margin-top:    ($margin * 2);
+    margin-bottom: ($margin * 1.5);
+    border-bottom: 1px solid #000;
+    }
+  > h1 {
+    @extend %_header;
+    font-size: $font-size-large;
+    }
+  > h2 {
+    @extend %_header;
+    font-size: ($font-size * 1.5);
+    }
+  > h3 {
+    @extend %_header;
+    font-size: ($font-size * 1.2);
+    }
+  > p {
+    margin-bottom: $margin;
+    }
+  > ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottoM: 20px;
+
+    > li {
+      > ul {
+        list-style-type: circle;
+        padding-left: 20px;
+        margin-bottoM: 20px;
+        }
+      }
+    }
+  }
+
