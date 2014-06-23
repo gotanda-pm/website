@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Gotanda.pm</title>
+<link rel="alternate" href="http://gotanda-pm.github.io/" />
+<author>karupanerura</author>
+<generator uri="https://github.com/Songmu/p5-Riji" version="0.0.14">Perl Riji</generator>
+<id>tag:gotanda-pm.github.io,2014-06-23:</id>
+<entry>
+<title type="text">Gotanda.pm #1 を開催しました</title>
+<link href="http://gotanda-pm.github.io/entry/2014-06-12-01.html" />
+<author>
+<name>karupanerura</name>
+</author>
+<content><![CDATA[<h1>Gotanda.pm #1 を開催しました</h1>
+
+<p>記念スべき第一回目のTech Conferenceを開催しました。<br/>
+発表者9名、聴講者27名、総勢の方がいらっしゃいました。<br/>
+梅雨の時期でお足元の悪い中お越し頂き、誠にありがとうございます。<br/>
+次回以降も継続していきたいと思いますので是非よろしくお願いいたします。</p>
+
+<h2>次回開催について</h2>
+
+<p>詳細な日程はまだ未定ですが9月を予定しております。<br/>
+本日と似たようなスタイルで開催する予定ですが、アイディア等あれば取り入れていくつもりです。<br/>
+活動予定をいちはやく知りたい方は<a href="https://www.google.com/calendar/embed?src=sfv70iikm6dpj7anvu0m0jjt1s%40group.calendar.google.com&amp;ctz=Asia/Tokyo">Googleカレンダー</a>をご登録下さい。</p>
+
+<h2>お知らせ</h2>
+
+<p>懇親会費として参加者から1人3000円を頂いておりましたが、<br/>
+計3時間、好きに注文頂いて飲み食いした結果、なんと少し余ってしまいました。(11670円/1人当たり353円)<br/>
+つきましては、この分は次回の懇親会費に宛てさせて頂きたいと思います。<br/>
+返金して欲しいという方がいらっしゃいましたらお申し出下さい。(個別に返金させて頂きます)</p>
+
+<h2>謝辞・宣伝</h2>
+
+<p>聴講者として参加頂きました皆さん、ありがとうございました。<br/>
+次回以降は是非LTやトークにも挑戦してみてください！</p>
+
+<p>トーク/LTと発表して頂きました皆さん、ありがとうございました。<br/>
+Gotanda.pmとして良いスタートを切る事が出来たのは発表者の皆さんのお陰だと思います。<br/>
+なお、発表頂きました皆さんのなかには<a href="http://yapcasia.org/2014/">YAPC::Asia 2014</a>にてトークを応募している方もいらっしゃいます。<br/>
+是非、ご覧になっては如何でしょうか！</p>
+
+<ul>
+<li>songmuさん:    <a href="http://yapcasia.org/2014/talk/show/51921d12-ec7f-11e3-b82e-98666aeab6a4">実務に役立つPerlライブコーディング～Webアプリケーション編</a></li>
+<li>songmuさん:    <a href="http://yapcasia.org/2014/talk/show/b735a908-ec7b-11e3-b82e-98666aeab6a4">息をするようにCPANにモジュールを書けるになった経緯とその結果起こったこと</a></li>
+<li>saisa6153さん: <a href="http://yapcasia.org/2014/talk/show/db4e9d60-f183-11e3-b7e8-e4a96aeab6a4">今から始めるレガシーコード改善レポート</a></li>
+<li>papixさん:     <a href="http://yapcasia.org/2014/talk/show/680c4b3e-ecb2-11e3-b82e-98666aeab6a4">今日から始める! BOTで楽しく生活カイゼン!?</a></li>
+<li>tokuhiromさん: <a href="http://yapcasia.org/2014/talk/show/66c55626-eba9-11e3-bd6d-c7a06aeab6a4">Localizer - ウェブサイト他言語化フレームワーク作りました!</a></li>
+</ul>
+
+
+<p>会場を提供頂きました<a href="http://www.mobilefactory.jp/">モバイルファクトリー</a>さん、ありがとうございました。<br/>
+会場準備から会場復旧、受付まで、かなりの部分をお手伝い頂きました。</p>
+
+<p>なお、モバイルファクトリーさんでは現在、<a href="http://www.mobilefactory.jp/recruit/detail/category.html#caPerl">Perlのエンジニアを募集</a>しているようです。<br/>
+以下のような環境に興味のアル方は、オフィスの見学など相談してみてはいかがでしょうか？</p>
+
+<ul>
+<li>無限に野菜ジュースが飲める</li>
+<li>全社員デュアルディスプレイ(24インチフルHD * 2)</li>
+<li>残業せずにさくっと帰る文化</li>
+<li>全社員がIRCを利用</li>
+</ul>
+
+]]></content>
+<id>tag:gotanda-pm.github.io,2014-06-16:entry-2014-06-12-01.html</id>
+<published>2014-06-16T29:29:17+0900</published>
+<updated>2014-06-16T20:47:08+09:00</updated>
+</entry>
+<entry>
+<title type="text">Gotanda.pm #1 を開催します</title>
+<link href="http://gotanda-pm.github.io/entry/2014-05-13-01.html" />
+<author>
+<name>karupanerura</name>
+</author>
+<content><![CDATA[<h1>Gotanda.pm #1 を開催します</h1>
+
+<p>記念スべき第一回目のTech Conferenceを開催します。</p>
+
+<p>スケジュールはすこしキッチリしていますがゆるーい感じで開催する予定です。</p>
+
+<p>奮ってご応募下さい！</p>
+
+<p><a href="http://www.zusaar.com/event/10397006">参加登録</a></p>
+
+<p><a href="http://www.zusaar.com/event/10397007">スピーカー登録</a></p>
+
+<h2>詳細</h2>
+
+<p>日時: 2014/06/11 18:30開場 19:00 〜 21:00</p>
+
+<p>会場: モバイルファクトリー 会議室（東京都品川区東五反田1-24-2 東五反田1丁目ビル8階）</p>
+
+<h3>タイムテーブル</h3>
+
+<p>内容は随時更新致します。</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> 時間         </th>
+<th style="text-align:left;"> 内容                 </th>
+<th style="text-align:left;"> トーク内容                                     </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;"> 18:30〜19:00 </td>
+<td style="text-align:left;"> 参加者受付           </td>
+<td style="text-align:left;"> -                                              </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 19:00〜19:20 </td>
+<td style="text-align:left;"> Talk: songmu         </td>
+<td style="text-align:left;"> 多分Runcronの話もしくはGitMasterData           </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 19:20〜19:40 </td>
+<td style="text-align:left;"> Talk: __papix__  </td>
+<td style="text-align:left;"> 新卒研修を支える技術                           </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 19:40〜20:00 </td>
+<td style="text-align:left;"> Talk: saisa6153      </td>
+<td style="text-align:left;"> webの属人性排除を支える技術                    </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:00〜20:10 </td>
+<td style="text-align:left;"> 休憩                 </td>
+<td style="text-align:left;"> -                                              </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:10〜20:15 </td>
+<td style="text-align:left;"> LT: mizuki_r         </td>
+<td style="text-align:left;"> さいきんのWebAppの名前空間とか                 </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:15〜20:20 </td>
+<td style="text-align:left;"> LT: tokuhirom        </td>
+<td style="text-align:left;"> ろーからいざーかなにか                         </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:20〜20:25 </td>
+<td style="text-align:left;"> LT: mihyaeru21       </td>
+<td style="text-align:left;"> Python使いから見たPerl                         </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:25〜20:30 </td>
+<td style="text-align:left;"> LT: yusukebe         </td>
+<td style="text-align:left;"> とあるエロサイトの改修 外伝                    </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:30〜20:35 </td>
+<td style="text-align:left;"> LT: akihiro_0228     </td>
+<td style="text-align:left;"> Perl初級者がYokohama.pmに行った結果            </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:35〜20:40 </td>
+<td style="text-align:left;"> LT: masasuz          </td>
+<td style="text-align:left;"> とある企業のperlのモジュール管理の歴史的なやつ </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:40〜      </td>
+<td style="text-align:left;"> 懇親会               </td>
+<td style="text-align:left;"> -                                              </td>
+</tr>
+</tbody>
+</table>
+
+]]></content>
+<id>tag:gotanda-pm.github.io,2014-05-13:entry-2014-05-13-01.html</id>
+<published>2014-05-13T11:11:29+0900</published>
+<updated>2014-06-11T17:13:58+09:00</updated>
+</entry>
+<entry>
+<title type="text">Gotanda.pmのオフィシャルサイトを開設しました</title>
+<link href="http://gotanda-pm.github.io/entry/2014-05-03-01.html" />
+<author>
+<name>karupanerura</name>
+</author>
+<content><![CDATA[<h1>Gotanda.pmのオフィシャルサイトを開設しました</h1>
+
+<p>Gotanda.pmのオフィシャルウェブサイトを開設しました事をお知らせ致します。
+Gotanda.pm自体の概要はメニュー(About)よりご確認ください。
+今後はこちらにカンファレンスの開催情報等を配信していきます。RSSも提供されますのでご利用下さい。</p>
+
+<p>なお、Authoring Toolとしては<a href="https://twitter.com/songmu">@songmu</a>さんの<a href="https://github.com/Songmu/p5-Riji">Riji</a>を利用させて頂きました。
+この場を借りて御礼を申し上げます。</p>
+
+<p>初回カンファレンス、Gotanda.pm#1については会場/日程を調整中です。6月上旬に開催となる見込みです。
+予定の決定をいちはやく知りたい方は<a href="https://www.google.com/calendar/embed?src=sfv70iikm6dpj7anvu0m0jjt1s%40group.calendar.google.com&amp;ctz=Asia/Tokyo">Googleカレンダー</a>をご登録下さい。
+日程が決まり次第、Googleカレンダーに登録致します。
+また、会場候補のキャパシティに上限がある為、他のカンファレンスと同様にATND等で事前参加登録を行う予定です。
+Googleカレンダーを登録するだけでは参加はできかねますのでご注意下さい。(ATND等へのリンクを記載致しますのでそちらよりご登録下さい。)</p>
+]]></content>
+<id>tag:gotanda-pm.github.io,2014-05-03:entry-2014-05-03-01.html</id>
+<published>2014-05-03T09:09:47+0900</published>
+<updated>2014-05-13T11:11:25+09:00</updated>
+</entry>
+</feed>
