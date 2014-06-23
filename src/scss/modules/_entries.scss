@@ -52,8 +52,36 @@ entriyや長文を記載するためのUI定義。
     width: 100%;
     overflow: scroll;
     margin: 20px auto;
+
+    @media #{$device-phone} {
+      display: block;
+      }
+
     thead {
       background: #f0f0f0;
+
+      @media #{$device-phone} {
+        display: block;
+        float: left;
+        td {
+          display: block;
+          }
+        }
+      }
+    tbody {
+      @media #{$device-phone} {
+        display: block;
+        width: auto;
+        clear: both;
+        position: relative;
+        overflow-x: auto;
+        white-space: nowrap;
+        }
+      tr {
+        @media #{$device-phone} {
+          vertical-align: top;
+          }
+        }
       }
     th, td {
       padding: 5px 10px;

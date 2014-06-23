@@ -146,16 +146,46 @@ entriyや長文を記載するためのUI定義。
     width: 100%;
     overflow: scroll;
     margin: 20px auto; }
-    /* line 55, ../../src/scss/modules/_entries.scss */
+    @media screen and (max-width: 767px) {
+      /* line 51, ../../src/scss/modules/_entries.scss */
+      .about-scope > table, .archive-scope > table,
+      .entries-by-tag-scope > table, .entry-scope > article > table {
+        display: block; } }
+    /* line 60, ../../src/scss/modules/_entries.scss */
     .about-scope > table thead, .archive-scope > table thead,
     .entries-by-tag-scope > table thead, .entry-scope > article > table thead {
       background: #f0f0f0; }
-    /* line 58, ../../src/scss/modules/_entries.scss */
+      @media screen and (max-width: 767px) {
+        /* line 60, ../../src/scss/modules/_entries.scss */
+        .about-scope > table thead, .archive-scope > table thead,
+        .entries-by-tag-scope > table thead, .entry-scope > article > table thead {
+          display: block;
+          float: left; }
+          /* line 66, ../../src/scss/modules/_entries.scss */
+          .about-scope > table thead td, .archive-scope > table thead td,
+          .entries-by-tag-scope > table thead td, .entry-scope > article > table thead td {
+            display: block; } }
+    @media screen and (max-width: 767px) {
+      /* line 71, ../../src/scss/modules/_entries.scss */
+      .about-scope > table tbody, .archive-scope > table tbody,
+      .entries-by-tag-scope > table tbody, .entry-scope > article > table tbody {
+        display: block;
+        width: auto;
+        clear: both;
+        position: relative;
+        overflow-x: auto;
+        white-space: nowrap; } }
+    @media screen and (max-width: 767px) {
+      /* line 80, ../../src/scss/modules/_entries.scss */
+      .about-scope > table tbody tr, .archive-scope > table tbody tr,
+      .entries-by-tag-scope > table tbody tr, .entry-scope > article > table tbody tr {
+        vertical-align: top; } }
+    /* line 86, ../../src/scss/modules/_entries.scss */
     .about-scope > table th, .archive-scope > table th,
     .entries-by-tag-scope > table th, .entry-scope > article > table th, .about-scope > table td, .archive-scope > table td,
     .entries-by-tag-scope > table td, .entry-scope > article > table td {
       padding: 5px 10px; }
-  /* line 62, ../../src/scss/modules/_entries.scss */
+  /* line 90, ../../src/scss/modules/_entries.scss */
   .about-scope a, .archive-scope a,
   .entries-by-tag-scope a, .entry-scope > article a {
     color: #00f; }
