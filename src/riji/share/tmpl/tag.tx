@@ -5,8 +5,9 @@
 : }
 
 : around content -> {
-<section class="entries-by-tag">
-  <h1><: $tag.name :></h1>
+<section class="entries-by-tag-scope">
+  <h1 class="title"><: $tag.name :></h1>
+
   <ul class="archives">
   : for $tag.entries() -> $entry {
   <li><time><: $entry.published_at.strftime('%Y-%m-%d') :></time><a href="<: $entry.site_path() | uri_for :>"><: $entry.title :></a></li>

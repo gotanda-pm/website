@@ -8,3 +8,48 @@
     @extend %entry;
     }
   }
+.meta-scope {
+  position: relative;
+  height: 80px;
+
+  .meta {
+    display: flex;
+    position: absolute;
+    right: 0;
+
+    width: 300px;
+    flex-wrap: wrap;
+    font-size: $font-size-small;
+
+    > dt {
+      width: 120px;
+      }
+    > dd {
+      display: block;
+      width: 180px;
+      }
+    }
+  }
+.paginate {
+  height: 24px;
+  margin: 10px 10px 20px;
+
+  > ul {
+    clear: both;
+    width: 100%;
+
+    .prev {
+      float: left;
+      &:before {
+        content: '<';
+        }
+      }
+    .next {
+      float: right;
+      &:after {
+        content: '>';
+        }
+      }
+    }
+  }
+

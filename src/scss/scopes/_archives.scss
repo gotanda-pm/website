@@ -1,7 +1,8 @@
 /*
 # archives
  */
-.archive-scope {
+.archive-scope,
+.entries-by-tag-scope {
   @extend %entry;
 
   > .title {

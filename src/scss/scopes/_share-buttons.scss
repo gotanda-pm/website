@@ -14,5 +14,10 @@
     .facebook {
       margin-top: -4px;
       }
+    .google {
+      // XXX: ホントはボタン差し替えるのが正しいんだろうな
+      max-width: 300px;
+      overflow: hidden;
+      }
     }
   }

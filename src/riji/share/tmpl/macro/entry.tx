@@ -3,7 +3,7 @@
   <article>
     <: $entry.html_body() | mark_raw :>
   : if !$opt.no_aside {
-  <aside>
+  <aside class="meta-scope">
     <dl class="meta">
       <dt class="author">created by</dt>
       <dd class="author"><: $entry.created_by() :></dd>
