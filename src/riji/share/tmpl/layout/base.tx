@@ -25,7 +25,6 @@
         <p class="description">五反田を中心に活動するPerlの技術者コミュニティ</p>
         : if !$hide_menu {
           <nav class="site-menu-scope">
-            <a href="javascript:void(0)" class="open-menu">MENU</a>
             <ul class="menu">
               <li><a href="<: uri_for('/')              :>">Top</a></li>
               <li><a href="<: uri_for('/about.html')    :>">About</a></li>
