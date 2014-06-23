@@ -371,7 +371,11 @@ entriyや長文を記載するためのUI定義。
 .meta-scope {
   position: relative;
   height: 80px; }
-  /* line 15, ../../src/scss/scopes/_entry.scss */
+  @media screen and (max-width: 767px) {
+    /* line 11, ../../src/scss/scopes/_entry.scss */
+    .meta-scope {
+      height: 160px; } }
+  /* line 18, ../../src/scss/scopes/_entry.scss */
   .meta-scope .meta {
     display: -webkit-box;
     display: -webkit-flex;
@@ -384,32 +388,44 @@ entriyや長文を記載するためのUI定義。
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     font-size: 12px; }
-    /* line 24, ../../src/scss/scopes/_entry.scss */
+    @media screen and (max-width: 767px) {
+      /* line 18, ../../src/scss/scopes/_entry.scss */
+      .meta-scope .meta {
+        width: 100%; } }
+    /* line 31, ../../src/scss/scopes/_entry.scss */
     .meta-scope .meta > dt {
       width: 120px; }
-    /* line 27, ../../src/scss/scopes/_entry.scss */
+      @media screen and (max-width: 767px) {
+        /* line 31, ../../src/scss/scopes/_entry.scss */
+        .meta-scope .meta > dt {
+          width: 100%; } }
+    /* line 38, ../../src/scss/scopes/_entry.scss */
     .meta-scope .meta > dd {
       display: block;
       width: 180px; }
+      @media screen and (max-width: 767px) {
+        /* line 38, ../../src/scss/scopes/_entry.scss */
+        .meta-scope .meta > dd {
+          width: 100%; } }
 
-/* line 33, ../../src/scss/scopes/_entry.scss */
+/* line 48, ../../src/scss/scopes/_entry.scss */
 .paginate {
   height: 24px;
   margin: 10px 10px 20px; }
-  /* line 37, ../../src/scss/scopes/_entry.scss */
+  /* line 52, ../../src/scss/scopes/_entry.scss */
   .paginate > ul {
     clear: both;
     width: 100%; }
-    /* line 41, ../../src/scss/scopes/_entry.scss */
+    /* line 56, ../../src/scss/scopes/_entry.scss */
     .paginate > ul .prev {
       float: left; }
-      /* line 43, ../../src/scss/scopes/_entry.scss */
+      /* line 58, ../../src/scss/scopes/_entry.scss */
       .paginate > ul .prev:before {
         content: '<'; }
-    /* line 47, ../../src/scss/scopes/_entry.scss */
+    /* line 62, ../../src/scss/scopes/_entry.scss */
     .paginate > ul .next {
       float: right; }
-      /* line 49, ../../src/scss/scopes/_entry.scss */
+      /* line 64, ../../src/scss/scopes/_entry.scss */
       .paginate > ul .next:after {
         content: '>'; }
 

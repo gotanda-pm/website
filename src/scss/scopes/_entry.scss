@@ -12,6 +12,9 @@
   position: relative;
   height: 80px;
 
+  @media #{$device-phone} {
+    height: 160px;
+    }
   .meta {
     display: flex;
     position: absolute;
@@ -21,12 +24,24 @@
     flex-wrap: wrap;
     font-size: $font-size-small;
 
+    @media #{$device-phone} {
+      width: 100%;
+      }
+
     > dt {
       width: 120px;
+
+      @media #{$device-phone} {
+        width: 100%;
+        }
       }
     > dd {
       display: block;
       width: 180px;
+
+      @media #{$device-phone} {
+        width: 100%;
+        }
       }
     }
   }
