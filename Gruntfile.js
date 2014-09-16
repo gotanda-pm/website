@@ -15,7 +15,12 @@ module.exports = function (grunt) {
         command: './riji.sh publish'
       },
       deploy: {
-        command: 'cd htdocs && ../tools/git-pushdir/git-pushdir -m "`git --no-pager log -1 --format=\'publish at commit %h\'`" git@github.com:gotanda-pm/gotanda-pm.github.io.git'
+        command: '../tools/git-pushdir/git-pushdir -m "`git --no-pager log -1 --format=\'publish at commit %h\'`" git@github.com:gotanda-pm/gotanda-pm.github.io.git',
+        options: {
+          execOptions: {
+            cwd: 'htdocs'
+          }
+        }
       }
     },
     compass: {
