@@ -1,7 +1,8 @@
 Setup
 ==========================================================================
 ```sh
-git subtree pull --prefix=htdocs git@github.com:gotanda-pm/gotanda-pm.github.io.git master
+git submodule init
+git submodule update
 npm install -g grunt-cli
 npm install
 bundle install
@@ -20,6 +21,7 @@ publish(Riji)
 --------------------------------------------------------------------------
 ```sh
 grunt publish
+git commit -av
 ```
 
 edit and preview
@@ -31,6 +33,5 @@ grunt server
 deploy
 --------------------------------------------------------------------------
 ```sh
-git commit -av
-git subtree push --prefix=htdocs git@github.com:gotanda-pm/gotanda-pm.github.io.git master
+grunt deploy
 ```

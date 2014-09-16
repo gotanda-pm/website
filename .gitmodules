@@ -1,0 +1,3 @@
+[submodule "tools/git-pushdir"]
+	path = tools/git-pushdir
+	url = git@github.com:kazuho/git-pushdir.git
