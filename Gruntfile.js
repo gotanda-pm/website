@@ -31,7 +31,7 @@ module.exports = function (grunt) {
         command: './riji.sh server'
       },
       publish: {
-        command: './riji.sh publish'
+        command: './riji.sh publish && git add htdocs && git commit -m "publish."'
       }
     },
     compass: {
