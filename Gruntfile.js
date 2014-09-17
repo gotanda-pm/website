@@ -1,8 +1,27 @@
 var gruntConnectProxyUtils = require('grunt-connect-proxy/lib/utils');
-var exec = require('child_process').exec;
 
 module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
+
+  grunt.registerTask("deploy", "Deploy to github pages.", function () {
+    var done = this.async();
+    grunt.util.spawn({
+      cmd:  "git",
+      args: ["--no-pager", "log", "-n", "1", "--format=publish at commit %h", "HEAD", "htdocs"]
+    }, function (error, result, code) {
+      if (code === 0) {
+        grunt.util.spawn({
+          cmd:  "../tools/git-pushdir/git-pushdir",
+          args: ["-m", result.stdout, "git@github.com:gotanda-pm/gotanda-pm.github.io.git"],
+          opts: { cwd: "htdocs" }
+        }, done);
+      }
+      else {
+        grunt.log.errorlns(error);
+        done();
+      }
+    });
+  });
 
   grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
@@ -13,14 +32,6 @@ module.exports = function (grunt) {
       },
       publish: {
         command: './riji.sh publish'
-      },
-      deploy: {
-        command: '../tools/git-pushdir/git-pushdir -m "`git --no-pager log -1 --format=\'publish at commit %h\'`" git@github.com:gotanda-pm/gotanda-pm.github.io.git',
-        options: {
-          execOptions: {
-            cwd: 'htdocs'
-          }
-        }
       }
     },
     compass: {
@@ -97,7 +108,6 @@ module.exports = function (grunt) {
   grunt.registerTask("js",      ["uglify:js"]);
   grunt.registerTask("build",   ["css", "js"]);
   grunt.registerTask("publish", ["shell:publish"]);
-  grunt.registerTask("deploy",  ["shell:deploy"]);
 
   grunt.registerTask("server",  ["configureProxies", "connect:app", "shell:riji", "watch"]);
   grunt.registerTask("default", ["server"]);
