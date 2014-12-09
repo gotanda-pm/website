@@ -349,9 +349,6 @@ DISTRIBUTIONS
       Git::Repository 1.311
       Git::Repository::Command 1.311
       Git::Repository::Plugin 1.311
-      Git::Repository::Plugin::Hello undef
-      Git::Repository::Plugin::Hello2 undef
-      MyGit::Hello undef
       Test::Git 1.311
     requirements:
       Carp 0
@@ -426,7 +423,6 @@ DISTRIBUTIONS
       HTTP::Body::UrlEncoded 1.19
       HTTP::Body::XForms 1.19
       HTTP::Body::XFormsMultipart 1.19
-      PAML undef
     requirements:
       Carp 0
       Digest::MD5 0
@@ -678,10 +674,6 @@ DISTRIBUTIONS
     pathname: D/DR/DROLSKY/Module-Implementation-0.07.tar.gz
     provides:
       Module::Implementation 0.07
-      T::Impl1 undef
-      T::Impl2 undef
-      T::ImplFails1 undef
-      T::ImplFails2 undef
     requirements:
       Carp 0
       ExtUtils::MakeMaker 6.30
@@ -714,6 +706,7 @@ DISTRIBUTIONS
       Mouse::Meta::Module undef
       Mouse::Meta::Role undef
       Mouse::Meta::Role::Application undef
+      Mouse::Meta::Role::Application::RoleSummation undef
       Mouse::Meta::Role::Composite undef
       Mouse::Meta::Role::Method undef
       Mouse::Meta::TypeConstraint undef
@@ -722,7 +715,7 @@ DISTRIBUTIONS
       Mouse::Role 2.002000
       Mouse::Spec 2.002000
       Mouse::TypeRegistry undef
-      Mouse::Util 2.002000
+      Mouse::Util undef
       Mouse::Util::MetaRole undef
       Mouse::Util::TypeConstraints undef
       Squirrel undef
@@ -811,7 +804,6 @@ DISTRIBUTIONS
   Package-Stash-XS-0.28
     pathname: D/DO/DOY/Package-Stash-XS-0.28.tar.gz
     provides:
-      CompileTime undef
       Package::Stash::XS 0.28
     requirements:
       ExtUtils::MakeMaker 6.30
@@ -858,7 +850,7 @@ DISTRIBUTIONS
     pathname: D/DA/DAGOLDEN/Path-Tiny-0.054.tar.gz
     provides:
       Path::Tiny 0.054
-      flock undef
+      Path::Tiny::Error 0.054
     requirements:
       Carp 0
       Cwd 0
