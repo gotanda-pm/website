@@ -4,7 +4,7 @@
 <link rel="alternate" href="http://gotanda-pm.github.io/" />
 <author>karupanerura</author>
 <generator uri="https://github.com/Songmu/p5-Riji" version="0.0.14">Perl Riji</generator>
-<id>tag:gotanda-pm.github.io,2014-12-16:</id>
+<id>tag:gotanda-pm.github.io,2014-12-17:</id>
 <entry>
 <title type="text">Gotanda.pm #3 を開催します</title>
 <link href="http://gotanda-pm.github.io/entry/2014-12-09-01.html" />
@@ -107,7 +107,7 @@ Webに関係することであればPerl以外を題材にして頂いても構�
 <tr>
 <td style="text-align:left;"> 20:45〜20:50 </td>
 <td style="text-align:left;"> LT: papix            </td>
-<td style="text-align:left;"> (未定)                                         </td>
+<td style="text-align:left;"> API Client Libraryのひな形とか作れたらステキやん? </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:50〜20:55 </td>
@@ -130,7 +130,7 @@ Webに関係することであればPerl以外を題材にして頂いても構�
 ]]></content>
 <id>tag:gotanda-pm.github.io,2014-12-09:entry-2014-12-09-01.html</id>
 <published>2014-12-09T04:04:38+0900</published>
-<updated>2014-12-16T21:06:28+09:00</updated>
+<updated>2014-12-17T20:29:47+09:00</updated>
 </entry>
 <entry>
 <title type="text">Gotanda.pm #2 を開催します</title>
