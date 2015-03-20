@@ -21,29 +21,25 @@ DISTRIBUTIONS
       POSIX::strftime::Compiler 0.30
       Time::Local 0
       perl 5.008004
-  App-Wallflower-1.004
-    pathname: B/BO/BOOK/App-Wallflower-1.004.tar.gz
+  App-Wallflower-1.005
+    pathname: B/BO/BOOK/App-Wallflower-1.005.tar.gz
     provides:
-      App::Wallflower 1.004
-      Wallflower 1.004
-      Wallflower::Util 1.004
+      App::Wallflower 1.005
+      Wallflower 1.005
+      Wallflower::Util 1.005
     requirements:
       Carp 0
       Exporter 0
       ExtUtils::MakeMaker 6.30
-      File::Find 0
-      File::Spec 0
-      File::Temp 0
       Getopt::Long 0
       HTML::LinkExtor 0
       HTTP::Date 0
       HTTP::Headers 0
-      List::Util 0
       Path::Class 0
+      Plack::App::URLMap 0
       Plack::Util 0
       Pod::Find 0
       Pod::Usage 0
-      Test::More 0.88
       URI 0
       strict 0
       warnings 0
@@ -544,6 +540,15 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0.31
       Time::HiRes 0
+  JSON-2.90
+    pathname: M/MA/MAKAMAKA/JSON-2.90.tar.gz
+    provides:
+      JSON 2.90
+      JSON::Backend::PP 2.90
+      JSON::Boolean 2.90
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   LWP-MediaTypes-6.02
     pathname: G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
     provides:
@@ -846,11 +851,11 @@ DISTRIBUTIONS
       overload 0
       parent 0
       strict 0
-  Path-Tiny-0.054
-    pathname: D/DA/DAGOLDEN/Path-Tiny-0.054.tar.gz
+  Path-Tiny-0.065
+    pathname: D/DA/DAGOLDEN/Path-Tiny-0.065.tar.gz
     provides:
-      Path::Tiny 0.054
-      Path::Tiny::Error 0.054
+      Path::Tiny 0.065
+      Path::Tiny::Error 0.065
     requirements:
       Carp 0
       Cwd 0
@@ -860,6 +865,7 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.17
       Fcntl 0
       File::Copy 0
+      File::Glob 0
       File::Path 2.07
       File::Spec 3.40
       File::Temp 0.19
@@ -867,6 +873,7 @@ DISTRIBUTIONS
       constant 0
       if 0
       overload 0
+      perl 5.008001
       strict 0
       warnings 0
   Plack-1.0030
@@ -983,6 +990,20 @@ DISTRIBUTIONS
       Digest::SHA1 0
       Module::Build::Tiny 0.030
       Plack 0.9910
+  Plack-Request-WithEncoding-0.12
+    pathname: M/MO/MOZNION/Plack-Request-WithEncoding-0.12.tar.gz
+    provides:
+      Plack::Request::WithEncoding 0.12
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Encode 0
+      ExtUtils::CBuilder 0
+      Hash::MultiValue 0
+      Module::Build 0.38
+      Plack::Request 0
+      parent 0
+      perl 5.008001
   Probe-Perl-0.03
     pathname: K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
     provides:
@@ -992,10 +1013,10 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       File::Spec 0
       strict 0
-  Puncheur-0.0.3
-    pathname: S/SO/SONGMU/Puncheur-0.0.3.tar.gz
+  Puncheur-v0.3.0
+    pathname: S/SO/SONGMU/Puncheur-v0.3.0.tar.gz
     provides:
-      Puncheur 0.000003
+      Puncheur 0.003000
       Puncheur::Dispatcher::Lite undef
       Puncheur::Dispatcher::PHPish undef
       Puncheur::Lite undef
@@ -1012,19 +1033,23 @@ DISTRIBUTIONS
       CPAN::Meta::Prereqs 0
       Clone 0
       Config::PL 0
-      ExtUtils::CBuilder 0
+      Data::Section::Simple 0
       Hash::MultiValue 0
+      JSON 0
       Module::Build 0.38
       Plack 0
       Plack::Middleware::Session 0
+      Plack::Request::WithEncoding 0
+      Router::Boom 1.00
+      Text::Xslate 0
       Tiffany 0
       URI::QueryParam 0
       URL::Encode 0
       perl 5.010
-  Riji-0.0.14
-    pathname: S/SO/SONGMU/Riji-0.0.14.tar.gz
+  Riji-v0.9.4
+    pathname: S/SO/SONGMU/Riji-v0.9.4.tar.gz
     provides:
-      Riji 0.000014
+      Riji 0.009004
       Riji::CLI undef
       Riji::CLI::Help undef
       Riji::CLI::NewEntry undef
@@ -1037,27 +1062,21 @@ DISTRIBUTIONS
       Riji::Model::Tag undef
       Riji::Models undef
     requirements:
-      App::Wallflower 0
-      CPAN::Meta 0
-      CPAN::Meta::Prereqs 0
-      Data::Section::Simple 0
-      ExtUtils::CBuilder 0
+      App::Wallflower 1.005
       File::Copy::Recursive 0
-      File::ShareDir 1.00
-      File::Which 0
       Git::Repository 0
       Git::Repository::FileHistory 0.03
       HTTP::Date 0
+      IPC::Cmd 0
       List::UtilsBy 0
       MIME::Base32 0
-      Module::Build 0.38
+      Module::Build::Tiny 0.035
       Mouse 0
       Object::Container 0
-      Path::Tiny 0
+      Path::Tiny 0.061
       Plack 0
-      Puncheur::Lite 0
-      Puncheur::Runner 0
-      Router::Simple::Sinatraish 0
+      Puncheur v0.3.0
+      Router::Boom 1.00
       String::CamelCase 0
       Text::Markdown::Discount 0.10
       Text::Markup::Any 0
@@ -1068,6 +1087,19 @@ DISTRIBUTIONS
       XML::FeedPP 0
       YAML::Tiny 0
       perl 5.010
+  Router-Boom-1.01
+    pathname: T/TO/TOKUHIROM/Router-Boom-1.01.tar.gz
+    provides:
+      Router::Boom 1.01
+      Router::Boom::Method 1.01
+      Router::Boom::Node undef
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Class::Accessor::Lite 0.05
+      ExtUtils::CBuilder 0
+      Module::Build 0.38
+      perl 5.008005
   Router-Simple-0.15
     pathname: T/TO/TOKUHIROM/Router-Simple-0.15.tar.gz
     provides:
