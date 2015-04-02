@@ -82,6 +82,7 @@ module.exports = function (grunt) {
           context: [
             "/",
             "!/css/",
+            "!/img/",
             "!/js/"
           ],
           host: "localhost",
