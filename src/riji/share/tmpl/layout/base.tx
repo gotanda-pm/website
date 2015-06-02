@@ -10,7 +10,7 @@
     <meta name="description" content="Gotanda.pm" />
     <meta name="author" content="karupanerura" />
     <meta name="copyright" content="Gotanda.pm" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js" async="async" defer="defer"></script>
     <script src="/js/app.js" async="async" defer="defer"></script>
   </head>
