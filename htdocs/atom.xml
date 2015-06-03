@@ -3,16 +3,15 @@
 <title>Gotanda.pm</title>
 <link rel="alternate" href="http://gotanda.pm.org/" />
 <author>karupanerura</author>
-<generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.7">Perl Riji</generator>
-<id>tag:gotanda.pm.org,2015-06-02:</id>
+<generator uri="https://github.com/Songmu/p5-Riji" version="0.0.14">Perl Riji</generator>
+<id>tag:gotanda.pm.org,2015-06-03:</id>
 <entry>
 <title type="text">Gotanda.pm #5 を開催します</title>
 <link href="http://gotanda.pm.org/entry/2015-06-02-01.html" />
 <author>
 <name>karupanerura</name>
 </author>
-<content type="html">
-<![CDATA[
+<content><![CDATA[<h1>Gotanda.pm #5 を開催します</h1>
 
 <p>第5回目のTech Conferenceを開催します。</p>
 
@@ -85,22 +84,22 @@
 </tr>
 <tr>
 <td style="text-align:left;"> 20:30〜20:35 </td>
-<td style="text-align:left;"> LT: (募集中)         </td>
-<td style="text-align:left;"> (未定)                                         </td>
+<td style="text-align:left;"> LT: papix            </td>
+<td style="text-align:left;"> PerlとAnsibleの話 (仮)                         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:35〜20:40 </td>
-<td style="text-align:left;"> LT: (募集中)         </td>
-<td style="text-align:left;"> (未定)                                         </td>
+<td style="text-align:left;"> LT: songmu           </td>
+<td style="text-align:left;"> 多くのCPANモジュールを低速化してきた話         </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:40〜20:45 </td>
-<td style="text-align:left;"> LT: (募集中)         </td>
-<td style="text-align:left;"> (未定)                                         </td>
+<td style="text-align:left;"> LT: key_amb          </td>
+<td style="text-align:left;"> Introduction to Koyomi #appkoyomi              </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:45〜20:50 </td>
-<td style="text-align:left;"> LT: (募集中)         </td>
+<td style="text-align:left;"> LT: zoncoen          </td>
 <td style="text-align:left;"> (未定)                                         </td>
 </tr>
 <tr>
@@ -123,8 +122,8 @@
 
 ]]></content>
 <id>tag:gotanda.pm.org,2015-06-02:entry-2015-06-02-01.html</id>
-<published>2015-06-02T09:44:18+09:00</published>
-<updated>2015-06-02T09:54:31+09:00</updated>
+<published>2015-06-02T44:44:18+0900</published>
+<updated>2015-06-03T14:27:47+09:00</updated>
 </entry>
 <entry>
 <title type="text">Gotanda.pm #4 を開催しました</title>
@@ -132,8 +131,7 @@
 <author>
 <name>karupanerura</name>
 </author>
-<content type="html">
-<![CDATA[
+<content><![CDATA[<h1>Gotanda.pm #4 を開催しました</h1>
 
 <p>総勢25名の方にご来場頂き、9名の方にご登壇頂きました。</p>
 
@@ -167,7 +165,7 @@
 会場/動画を提供して頂きました<a href="http://www.gaiax.co.jp/">株式会社ガイアックス</a>様、ありがとうございました！</p>
 ]]></content>
 <id>tag:gotanda.pm.org,2015-04-02:entry-2015-03-30-01.html</id>
-<published>2015-04-02T19:39:11+09:00</published>
+<published>2015-04-02T39:39:11+0900</published>
 <updated>2015-04-02T19:39:11+09:00</updated>
 </entry>
 <entry>
@@ -176,8 +174,7 @@
 <author>
 <name>karupanerura</name>
 </author>
-<content type="html">
-<![CDATA[
+<content><![CDATA[<h1>Gotanda.pm #4 を開催します</h1>
 
 <p>なんやかんややってたら当日のPOSTになってしまいました。すみません。。
 第4回目のTech Conferenceを開催します。</p>
@@ -289,7 +286,7 @@
 
 ]]></content>
 <id>tag:gotanda.pm.org,2015-03-25:entry-2015-03-25.html</id>
-<published>2015-03-25T17:50:37+09:00</published>
+<published>2015-03-25T50:50:37+0900</published>
 <updated>2015-03-25T17:50:37+09:00</updated>
 </entry>
 <entry>
@@ -298,8 +295,7 @@
 <author>
 <name>karupanerura</name>
 </author>
-<content type="html">
-<![CDATA[
+<content><![CDATA[<h1>Gotanda.pm #3 を開催します</h1>
 
 <p>第3回目のTech Conferenceを開催します。</p>
 
@@ -417,7 +413,7 @@ Webに関係することであればPerl以外を題材にして頂いても構�
 
 ]]></content>
 <id>tag:gotanda.pm.org,2014-12-09:entry-2014-12-09-01.html</id>
-<published>2014-12-09T10:04:38+09:00</published>
+<published>2014-12-09T04:04:38+0900</published>
 <updated>2014-12-17T20:29:47+09:00</updated>
 </entry>
 <entry>
@@ -426,8 +422,7 @@ Webに関係することであればPerl以外を題材にして頂いても構�
 <author>
 <name>karupanerura</name>
 </author>
-<content type="html">
-<![CDATA[
+<content><![CDATA[<h1>Gotanda.pm #2 を開催します</h1>
 
 <p>第2回目のTech Conferenceを開催します。</p>
 
@@ -543,7 +538,7 @@ Webに関係することであればPerl以外を題材にして頂いても構�
 
 ]]></content>
 <id>tag:gotanda.pm.org,2014-09-02:entry-2014-09-02-01.html</id>
-<published>2014-09-02T13:44:50+09:00</published>
+<published>2014-09-02T44:44:50+0900</published>
 <updated>2014-09-17T14:18:25+09:00</updated>
 </entry>
 <entry>
@@ -552,8 +547,7 @@ Webに関係することであればPerl以外を題材にして頂いても構�
 <author>
 <name>karupanerura</name>
 </author>
-<content type="html">
-<![CDATA[
+<content><![CDATA[<h1>Gotanda.pm #1 を開催しました</h1>
 
 <p>記念スべき第一回目のTech Conferenceを開催しました。<br/>
 発表者9名、聴講者27名、総勢の方がいらっしゃいました。<br/>
@@ -607,7 +601,7 @@ Gotanda.pmとして良いスタートを切る事が出来たのは発表者の�
 
 ]]></content>
 <id>tag:gotanda.pm.org,2014-06-16:entry-2014-06-12-01.html</id>
-<published>2014-06-16T20:29:17+09:00</published>
+<published>2014-06-16T29:29:17+0900</published>
 <updated>2014-06-16T20:47:08+09:00</updated>
 </entry>
 <entry>
@@ -616,8 +610,7 @@ Gotanda.pmとして良いスタートを切る事が出来たのは発表者の�
 <author>
 <name>karupanerura</name>
 </author>
-<content type="html">
-<![CDATA[
+<content><![CDATA[<h1>Gotanda.pm #1 を開催します</h1>
 
 <p>記念スべき第一回目のTech Conferenceを開催します。</p>
 
@@ -713,7 +706,7 @@ Gotanda.pmとして良いスタートを切る事が出来たのは発表者の�
 
 ]]></content>
 <id>tag:gotanda.pm.org,2014-05-13:entry-2014-05-13-01.html</id>
-<published>2014-05-13T08:11:29+09:00</published>
+<published>2014-05-13T11:11:29+0900</published>
 <updated>2014-06-11T17:13:58+09:00</updated>
 </entry>
 <entry>
@@ -722,8 +715,7 @@ Gotanda.pmとして良いスタートを切る事が出来たのは発表者の�
 <author>
 <name>karupanerura</name>
 </author>
-<content type="html">
-<![CDATA[
+<content><![CDATA[<h1>Gotanda.pmのオフィシャルサイトを開設しました</h1>
 
 <p>Gotanda.pmのオフィシャルウェブサイトを開設しました事をお知らせ致します。
 Gotanda.pm自体の概要はメニュー(About)よりご確認ください。
@@ -739,7 +731,7 @@ Gotanda.pm自体の概要はメニュー(About)よりご確認ください。
 Googleカレンダーを登録するだけでは参加はできかねますのでご注意下さい。(ATND等へのリンクを記載致しますのでそちらよりご登録下さい。)</p>
 ]]></content>
 <id>tag:gotanda.pm.org,2014-05-03:entry-2014-05-03-01.html</id>
-<published>2014-05-03T23:09:47+09:00</published>
+<published>2014-05-03T09:09:47+0900</published>
 <updated>2014-05-13T11:11:25+09:00</updated>
 </entry>
 </feed>
