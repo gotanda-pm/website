@@ -322,6 +322,17 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.11
       File::Spec 0
       IO::Dir 0
+  File-Which-1.09
+    pathname: A/AD/ADAMK/File-Which-1.09.tar.gz
+    provides:
+      File::Which 1.09
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0.60
+      Getopt::Std 0
+      Test::More 0.80
+      Test::Script 1.05
   Filesys-Notify-Simple-0.12
     pathname: M/MI/MIYAGAWA/Filesys-Notify-Simple-0.12.tar.gz
     provides:
@@ -521,6 +532,14 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0.47
+  IPC-Run3-0.048
+    pathname: R/RJ/RJBS/IPC-Run3-0.048.tar.gz
+    provides:
+      IPC::Run3 0.048
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.31
+      Time::HiRes 0
   JSON-2.90
     pathname: M/MA/MAKAMAKA/JSON-2.90.tar.gz
     provides:
@@ -692,7 +711,7 @@ DISTRIBUTIONS
   Mouse-2.2.0
     pathname: G/GF/GFUJI/Mouse-2.2.0.tar.gz
     provides:
-      Mouse v2.2.0
+      Mouse 2.002000
       Mouse::Exporter undef
       Mouse::Meta::Attribute undef
       Mouse::Meta::Class undef
@@ -710,11 +729,10 @@ DISTRIBUTIONS
       Mouse::Meta::TypeConstraint undef
       Mouse::Object undef
       Mouse::PurePerl undef
-      Mouse::Role v2.2.0
-      Mouse::Spec v2.2.0
-      Mouse::Tiny v2.1.0
+      Mouse::Role 2.002000
+      Mouse::Spec 2.002000
       Mouse::TypeRegistry undef
-      Mouse::Util v2.2.0
+      Mouse::Util undef
       Mouse::Util::MetaRole undef
       Mouse::Util::TypeConstraints undef
       Squirrel undef
@@ -845,11 +863,11 @@ DISTRIBUTIONS
       overload 0
       parent 0
       strict 0
-  Path-Tiny-0.065
-    pathname: D/DA/DAGOLDEN/Path-Tiny-0.065.tar.gz
+  Path-Tiny-0.068
+    pathname: D/DA/DAGOLDEN/Path-Tiny-0.068.tar.gz
     provides:
-      Path::Tiny 0.065
-      Path::Tiny::Error 0.065
+      Path::Tiny 0.068
+      Path::Tiny::Error 0.068
     requirements:
       Carp 0
       Cwd 0
@@ -998,6 +1016,15 @@ DISTRIBUTIONS
       Plack::Request 0
       parent 0
       perl 5.008001
+  Probe-Perl-0.03
+    pathname: K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
+    provides:
+      Probe::Perl 0.03
+    requirements:
+      Config 0
+      ExtUtils::MakeMaker 6.30
+      File::Spec 0
+      strict 0
   Puncheur-v0.3.0
     pathname: S/SO/SONGMU/Puncheur-v0.3.0.tar.gz
     provides:
@@ -1073,19 +1100,43 @@ DISTRIBUTIONS
       XML::FeedPP 0
       YAML::Tiny 0
       perl 5.010
-  Router-Boom-1.01
-    pathname: T/TO/TOKUHIROM/Router-Boom-1.01.tar.gz
+  Router-Boom-1.02
+    pathname: T/TO/TOKUHIROM/Router-Boom-1.02.tar.gz
     provides:
-      Router::Boom 1.01
-      Router::Boom::Method 1.01
+      Router::Boom 1.02
+      Router::Boom::Method 1.02
       Router::Boom::Node undef
+    requirements:
+      Class::Accessor::Lite 0.05
+      Module::Build 0.38
+      perl 5.008005
+  Router-Simple-0.15
+    pathname: T/TO/TOKUHIROM/Router-Simple-0.15.tar.gz
+    provides:
+      Router::Simple 0.15
+      Router::Simple::Declare undef
+      Router::Simple::Route undef
+      Router::Simple::SubMapper undef
     requirements:
       CPAN::Meta 0
       CPAN::Meta::Prereqs 0
       Class::Accessor::Lite 0.05
       ExtUtils::CBuilder 0
+      List::Util 0
       Module::Build 0.38
-      perl 5.008005
+      Scalar::Util 0
+      parent 0
+      perl 5.008_001
+  Router-Simple-Sinatraish-0.03
+    pathname: T/TO/TOKUHIROM/Router-Simple-Sinatraish-0.03.tar.gz
+    provides:
+      Router::Simple::Sinatraish 0.03
+    requirements:
+      Module::Build 0.38
+      Router::Simple 0.09
+      Test::More 0.98
+      parent 0
+      perl 5.00800
   Stream-Buffered-0.02
     pathname: D/DO/DOY/Stream-Buffered-0.02.tar.gz
     provides:
@@ -1197,6 +1248,19 @@ DISTRIBUTIONS
       Test::Builder::Module 0
       Test::More 0.61
       perl 5.008_001
+  Test-Script-1.07
+    pathname: A/AD/ADAMK/Test-Script-1.07.tar.gz
+    provides:
+      Test::Script 1.07
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      File::Spec 0.80
+      IPC::Run3 0.034
+      Probe::Perl 0.01
+      Test::Builder 0.32
+      Test::Builder::Tester 1.02
+      Test::More 0.62
+      blib 0
   Test-SharedFork-0.24
     pathname: T/TO/TOKUHIROM/Test-SharedFork-0.24.tar.gz
     provides:
