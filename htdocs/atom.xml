@@ -4,7 +4,7 @@
 <link rel="alternate" href="http://gotanda.pm.org/" />
 <author>karupanerura</author>
 <generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.7">Perl Riji</generator>
-<id>tag:gotanda.pm.org,2015-06-19:</id>
+<id>tag:gotanda.pm.org,2015-06-24:</id>
 <entry>
 <title type="text">Gotanda.pm #5 を開催します</title>
 <link href="http://gotanda.pm.org/entry/2015-06-02-01.html" />
@@ -85,28 +85,28 @@
 </tr>
 <tr>
 <td style="text-align:left;"> 20:30〜20:35 </td>
+<td style="text-align:left;"> LT: magnolia_k_    </td>
+<td style="text-align:left;"> 標準モジュールでちょっとしたツールを作る話             </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:35〜20:40 </td>
 <td style="text-align:left;"> LT: papix            </td>
 <td style="text-align:left;"> PerlとAnsibleの話 (仮)                                 </td>
 </tr>
 <tr>
-<td style="text-align:left;"> 20:35〜20:40 </td>
+<td style="text-align:left;"> 20:40〜20:45 </td>
 <td style="text-align:left;"> LT: songmu           </td>
 <td style="text-align:left;"> 多くのCPANモジュールを低速化してきた話                 </td>
 </tr>
 <tr>
-<td style="text-align:left;"> 20:40〜20:45 </td>
+<td style="text-align:left;"> 20:45〜20:50 </td>
 <td style="text-align:left;"> LT: key_amb          </td>
 <td style="text-align:left;"> Introduction to Koyomi #appkoyomi                      </td>
 </tr>
 <tr>
-<td style="text-align:left;"> 20:45〜20:50 </td>
+<td style="text-align:left;"> 20:50〜20:55 </td>
 <td style="text-align:left;"> LT: zoncoen          </td>
 <td style="text-align:left;"> Perl でも React.js の server-side rendering がしたい！ </td>
-</tr>
-<tr>
-<td style="text-align:left;"> 20:50〜20:55 </td>
-<td style="text-align:left;"> LT: magnolia_k_    </td>
-<td style="text-align:left;"> 標準モジュールでちょっとしたツールを作る話             </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:55〜21:00 </td>
@@ -124,7 +124,7 @@
 ]]></content>
 <id>tag:gotanda.pm.org,2015-06-02:entry-2015-06-02-01.html</id>
 <published>2015-06-02T09:44:18+09:00</published>
-<updated>2015-06-19T15:07:35+09:00</updated>
+<updated>2015-06-24T09:41:54+09:00</updated>
 </entry>
 <entry>
 <title type="text">Gotanda.pm #4 を開催しました</title>
