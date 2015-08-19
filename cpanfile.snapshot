@@ -240,6 +240,14 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test 0
       perl 5.008
+  Exporter-Tiny-0.042
+    pathname: T/TO/TOBYINK/Exporter-Tiny-0.042.tar.gz
+    provides:
+      Exporter::Shiny 0.042
+      Exporter::Tiny 0.042
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
   ExtUtils-Config-0.007
     pathname: L/LE/LEONT/ExtUtils-Config-0.007.tar.gz
     provides:
@@ -322,17 +330,6 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.11
       File::Spec 0
       IO::Dir 0
-  File-Which-1.09
-    pathname: A/AD/ADAMK/File-Which-1.09.tar.gz
-    provides:
-      File::Which 1.09
-    requirements:
-      Exporter 0
-      ExtUtils::MakeMaker 0
-      File::Spec 0.60
-      Getopt::Std 0
-      Test::More 0.80
-      Test::Script 1.05
   Filesys-Notify-Simple-0.12
     pathname: M/MI/MIYAGAWA/Filesys-Notify-Simple-0.12.tar.gz
     provides:
@@ -532,14 +529,6 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0.47
-  IPC-Run3-0.048
-    pathname: R/RJ/RJBS/IPC-Run3-0.048.tar.gz
-    provides:
-      IPC::Run3 0.048
-    requirements:
-      ExtUtils::MakeMaker 0
-      Test::More 0.31
-      Time::HiRes 0
   JSON-2.90
     pathname: M/MA/MAKAMAKA/JSON-2.90.tar.gz
     provides:
@@ -556,15 +545,23 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006002
-  List-MoreUtils-0.33
-    pathname: A/AD/ADAMK/List-MoreUtils-0.33.tar.gz
+  List-MoreUtils-0.413
+    pathname: R/RE/REHSACK/List-MoreUtils-0.413.tar.gz
     provides:
-      List::MoreUtils 0.33
+      List::MoreUtils 0.413
+      List::MoreUtils::PP 0.413
+      List::MoreUtils::XS 0.413
     requirements:
-      ExtUtils::CBuilder 0.27
-      ExtUtils::MakeMaker 6.52
-      Test::More 0.82
-      perl 5.00503
+      Carp 0
+      Exporter::Tiny 0.038
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Spec 0
+      IPC::Cmd 0
+      XSLoader 0
+      base 0
   List-UtilsBy-0.09
     pathname: P/PE/PEVANS/List-UtilsBy-0.09.tar.gz
     provides:
@@ -711,7 +708,7 @@ DISTRIBUTIONS
   Mouse-2.2.0
     pathname: G/GF/GFUJI/Mouse-2.2.0.tar.gz
     provides:
-      Mouse 2.002000
+      Mouse v2.2.0
       Mouse::Exporter undef
       Mouse::Meta::Attribute undef
       Mouse::Meta::Class undef
@@ -729,10 +726,11 @@ DISTRIBUTIONS
       Mouse::Meta::TypeConstraint undef
       Mouse::Object undef
       Mouse::PurePerl undef
-      Mouse::Role 2.002000
-      Mouse::Spec 2.002000
+      Mouse::Role v2.2.0
+      Mouse::Spec v2.2.0
+      Mouse::Tiny v2.1.0
       Mouse::TypeRegistry undef
-      Mouse::Util undef
+      Mouse::Util v2.2.0
       Mouse::Util::MetaRole undef
       Mouse::Util::TypeConstraints undef
       Squirrel undef
@@ -1016,15 +1014,6 @@ DISTRIBUTIONS
       Plack::Request 0
       parent 0
       perl 5.008001
-  Probe-Perl-0.03
-    pathname: K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
-    provides:
-      Probe::Perl 0.03
-    requirements:
-      Config 0
-      ExtUtils::MakeMaker 6.30
-      File::Spec 0
-      strict 0
   Puncheur-v0.3.0
     pathname: S/SO/SONGMU/Puncheur-v0.3.0.tar.gz
     provides:
@@ -1110,33 +1099,6 @@ DISTRIBUTIONS
       Class::Accessor::Lite 0.05
       Module::Build 0.38
       perl 5.008005
-  Router-Simple-0.15
-    pathname: T/TO/TOKUHIROM/Router-Simple-0.15.tar.gz
-    provides:
-      Router::Simple 0.15
-      Router::Simple::Declare undef
-      Router::Simple::Route undef
-      Router::Simple::SubMapper undef
-    requirements:
-      CPAN::Meta 0
-      CPAN::Meta::Prereqs 0
-      Class::Accessor::Lite 0.05
-      ExtUtils::CBuilder 0
-      List::Util 0
-      Module::Build 0.38
-      Scalar::Util 0
-      parent 0
-      perl 5.008_001
-  Router-Simple-Sinatraish-0.03
-    pathname: T/TO/TOKUHIROM/Router-Simple-Sinatraish-0.03.tar.gz
-    provides:
-      Router::Simple::Sinatraish 0.03
-    requirements:
-      Module::Build 0.38
-      Router::Simple 0.09
-      Test::More 0.98
-      parent 0
-      perl 5.00800
   Stream-Buffered-0.02
     pathname: D/DO/DOY/Stream-Buffered-0.02.tar.gz
     provides:
@@ -1248,19 +1210,6 @@ DISTRIBUTIONS
       Test::Builder::Module 0
       Test::More 0.61
       perl 5.008_001
-  Test-Script-1.07
-    pathname: A/AD/ADAMK/Test-Script-1.07.tar.gz
-    provides:
-      Test::Script 1.07
-    requirements:
-      ExtUtils::MakeMaker 6.42
-      File::Spec 0.80
-      IPC::Run3 0.034
-      Probe::Perl 0.01
-      Test::Builder 0.32
-      Test::Builder::Tester 1.02
-      Test::More 0.62
-      blib 0
   Test-SharedFork-0.24
     pathname: T/TO/TOKUHIROM/Test-SharedFork-0.24.tar.gz
     provides:
