@@ -1,7 +1,8 @@
-node_modules/
-local/
-.sass-cache
-access_logs.db
-.ruby-version
-.node-version
-.perl-version
+/node_modules/
+/local/
+/.sass-cache
+/access_logs.db
+/.ruby-version
+/.node-version
+/.perl-version
+/.carmel
