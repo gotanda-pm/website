@@ -1,4 +1,5 @@
 var gruntConnectProxyUtils = require('grunt-connect-proxy/lib/utils');
+var serveStatic = require('serve-static');
 
 module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
@@ -68,12 +69,12 @@ module.exports = function (grunt) {
       app: {
         options: {
           livereload: true,
-          base: ['htdocs'],
           port: 5000,
           middleware: function (connect, options) {
-            var middlewares = options.base.map(function (base) { return connect.static(base); });
-            middlewares.unshift(gruntConnectProxyUtils.proxyRequest);
-            return middlewares;
+            return [
+              gruntConnectProxyUtils.proxyRequest,
+              serveStatic('htdocs')
+            ];
           }
         }
       },
