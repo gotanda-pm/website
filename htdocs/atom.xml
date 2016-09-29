@@ -6,27 +6,6 @@
 <generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.8">Perl Riji</generator>
 <id>tag:gotanda.pm.org,2016-09-29:</id>
 <entry>
-<title type="text">LINE@ができました</title>
-<link href="http://gotanda.pm.org/entry/2016-09-29-02.html" />
-<author>
-<name>karupanerura</name>
-</author>
-<content type="html">
-<![CDATA[
-
-<p>Gotanda.pmのLINE@ができました！<br/>
-カンファレンスなどの開催情報を配信するほか、将来的には参加登録や懇親会参加費の支払いなどもLINE上で完結できるようにすることを考えています。</p>
-
-<p><a href="https://line.me/R/ti/p/%40btk6607y"><img height="36" border="0" alt="友だち追加数" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" /></a><br/>
-<img src="http://qr-official.line.me/L/8dRQU-4H70.png" /></p>
-
-<p>ぜひご利用ください！</p>
-]]></content>
-<id>tag:gotanda.pm.org,2016-09-29:entry-2016-09-29-02.html</id>
-<published>2016-09-29T16:53:00+09:00</published>
-<updated>2016-09-29T16:53:00+09:00</updated>
-</entry>
-<entry>
 <title type="text">Gotanda.pm #10 を開催します</title>
 <link href="http://gotanda.pm.org/entry/2016-09-29-01.html" />
 <author>
@@ -105,7 +84,7 @@
 </tr>
 <tr>
 <td style="text-align:left;"> 20:00〜20:20 </td>
-<td style="text-align:left;"> Talk: $USER </td>
+<td style="text-align:left;"> Talk: karupanerura </td>
 <td style="text-align:left;"> ISUCONで役に立たない！Perlのマイクロチューニング術 </td>
 </tr>
 <tr>
@@ -120,8 +99,8 @@
 </tr>
 <tr>
 <td style="text-align:left;"> 20:35〜20:40 </td>
-<td style="text-align:left;"> LT: undef </td>
-<td style="text-align:left;"> undef </td>
+<td style="text-align:left;"> LT: mackee_w </td>
+<td style="text-align:left;"> genericsのない言語(Go)とある言語(Perl!?)について </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:40〜20:45 </td>
@@ -153,6 +132,27 @@
 
 ]]></content>
 <id>tag:gotanda.pm.org,2016-09-29:entry-2016-09-29-01.html</id>
+<published>2016-09-29T16:53:00+09:00</published>
+<updated>2016-09-29T17:13:48+09:00</updated>
+</entry>
+<entry>
+<title type="text">LINE@ができました</title>
+<link href="http://gotanda.pm.org/entry/2016-09-29-02.html" />
+<author>
+<name>karupanerura</name>
+</author>
+<content type="html">
+<![CDATA[
+
+<p>Gotanda.pmのLINE@ができました！<br/>
+カンファレンスなどの開催情報を配信するほか、将来的には参加登録や懇親会参加費の支払いなどもLINE上で完結できるようにすることを考えています。</p>
+
+<p><a href="https://line.me/R/ti/p/%40btk6607y"><img height="36" border="0" alt="友だち追加数" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" /></a><br/>
+<img src="http://qr-official.line.me/L/8dRQU-4H70.png" /></p>
+
+<p>ぜひご利用ください！</p>
+]]></content>
+<id>tag:gotanda.pm.org,2016-09-29:entry-2016-09-29-02.html</id>
 <published>2016-09-29T16:53:00+09:00</published>
 <updated>2016-09-29T16:53:00+09:00</updated>
 </entry>
