@@ -3,8 +3,159 @@
 <title>Gotanda.pm</title>
 <link rel="alternate" href="http://gotanda.pm.org/" />
 <author>karupanerura</author>
-<generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.7">Perl Riji</generator>
-<id>tag:gotanda.pm.org,2016-06-13:</id>
+<generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.8">Perl Riji</generator>
+<id>tag:gotanda.pm.org,2016-09-29:</id>
+<entry>
+<title type="text">LINE@ができました</title>
+<link href="http://gotanda.pm.org/entry/2016-09-29-02.html" />
+<author>
+<name>karupanerura</name>
+</author>
+<content type="html">
+<![CDATA[
+
+<p>Gotanda.pmのLINE@ができました！<br/>
+カンファレンスなどの開催情報を配信するほか、将来的には参加登録や懇親会参加費の支払いなどもLINE上で完結できるようにすることを考えています。</p>
+
+<p><a href="https://line.me/R/ti/p/%40btk6607y"><img height="36" border="0" alt="友だち追加数" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" /></a><br/>
+<img src="http://qr-official.line.me/L/8dRQU-4H70.png" /></p>
+
+<p>ぜひご利用ください！</p>
+]]></content>
+<id>tag:gotanda.pm.org,2016-09-29:entry-2016-09-29-02.html</id>
+<published>2016-09-29T16:53:00+09:00</published>
+<updated>2016-09-29T16:53:00+09:00</updated>
+</entry>
+<entry>
+<title type="text">Gotanda.pm #10 を開催します</title>
+<link href="http://gotanda.pm.org/entry/2016-09-29-01.html" />
+<author>
+<name>karupanerura</name>
+</author>
+<content type="html">
+<![CDATA[
+
+<p>第10回目のTech Conferenceを開催します。</p>
+
+<p>スーパーゆるーい感じで開催する予定です。</p>
+
+<p>奮ってご応募下さい！</p>
+
+<p>こちらから応募！ => <a href="http://gotanda-pm.connpass.com/event/40519/">connpass</a></p>
+
+<h1>テーマ</h1>
+
+<h2>問題解決</h2>
+
+<p>Perlの問題解決、Perlを使った問題解決、などなど。</p>
+
+<p>とはいえ、テーマと関係ないトーク、Perlと関係ないトークも大歓迎です。<br/>
+交流が主な目的なので自己紹介気分で気楽にトークしてみましょう！</p>
+
+<h1>詳細</h1>
+
+<p>日時: 2016/09/30 (Fri) 19:00開場 19:30 〜 23:00</p>
+
+<p>会場: 株式会社ガイアックス （東京都品川区西五反田1-21-8 (KSS五反田ビル 6F)）</p>
+
+<h1>注意事項</h1>
+
+<p>当日もアナウンスします</p>
+
+<h2>写真撮影をさせて頂きます</h2>
+
+<p>Gotanda.pmの記録と広報の目的で、Gotanda.pmのWebサイトに掲載するための写真をカンファレンス/懇親会中にしれっと撮影させて頂きます。
+写真が公開されると問題のある方はボカシ等配慮致しますので申し出て下さい。
+もし、NGの方があまりにも多い場合は写真撮影を中止します。
+が、五反田を盛り上げていくためにも極力雰囲気を分かりやすい形で伝えていきたいので是非ご協力下さい。</p>
+
+<h1>懇親会</h1>
+
+<p>TBD(会場近辺)で懇親会を開催する予定です。<br/>
+皆様、奮ってご参加下さい！<br/>
+※参加をご希望の方のみ、参加費3000円(予定)を頂きますので予めご準備下さい。</p>
+
+<h1>タイムテーブル</h1>
+
+<p>内容は随時更新致します。</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> 時間 </th>
+<th style="text-align:left;"> 内容 </th>
+<th style="text-align:left;"> トーク内容 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;"> 19:00〜19:30 </td>
+<td style="text-align:left;"> 参加者受付 </td>
+<td style="text-align:left;"> - </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 19:30〜19:40 </td>
+<td style="text-align:left;"> アナウンス </td>
+<td style="text-align:left;"> 会場の説明と懇親会の案内など </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 19:40〜20:00 </td>
+<td style="text-align:left;"> Talk: papix </td>
+<td style="text-align:left;"> Amon2やAnikiなどを使ってSSH公開鍵の管理サービスを作ってみた話 (仮) </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:00〜20:20 </td>
+<td style="text-align:left;"> Talk: $USER </td>
+<td style="text-align:left;"> ISUCONで役に立たない！Perlのマイクロチューニング術 </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:20〜20:30 </td>
+<td style="text-align:left;"> 休憩 </td>
+<td style="text-align:left;"> - </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:30〜20:35 </td>
+<td style="text-align:left;"> LT: skaji </td>
+<td style="text-align:left;"> I went to YAPC::NA 2016 </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:35〜20:40 </td>
+<td style="text-align:left;"> LT: undef </td>
+<td style="text-align:left;"> undef </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:40〜20:45 </td>
+<td style="text-align:left;"> LT: undef </td>
+<td style="text-align:left;"> undef </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:45〜20:50 </td>
+<td style="text-align:left;"> LT: undef </td>
+<td style="text-align:left;"> undef </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:50〜20:55 </td>
+<td style="text-align:left;"> LT: undef </td>
+<td style="text-align:left;"> undef </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 20:55〜21:00 </td>
+<td style="text-align:left;"> LT: undef </td>
+<td style="text-align:left;"> undef </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 21:00〜23:00 </td>
+<td style="text-align:left;"> 懇親会 </td>
+<td style="text-align:left;"> 希望者のみ </td>
+</tr>
+</tbody>
+</table>
+
+]]></content>
+<id>tag:gotanda.pm.org,2016-09-29:entry-2016-09-29-01.html</id>
+<published>2016-09-29T16:53:00+09:00</published>
+<updated>2016-09-29T16:53:00+09:00</updated>
+</entry>
 <entry>
 <title type="text">Gotanda.pm #9 を開催します</title>
 <link href="http://gotanda.pm.org/entry/2016-06-13-01.html" />
