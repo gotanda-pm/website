@@ -4,7 +4,7 @@
 <link rel="alternate" href="http://gotanda.pm.org/" />
 <author>karupanerura</author>
 <generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.8">Perl Riji</generator>
-<id>tag:gotanda.pm.org,2017-03-10:</id>
+<id>tag:gotanda.pm.org,2017-03-13:</id>
 <entry>
 <title type="text">Gotanda.pm #12 を開催します</title>
 <link href="http://gotanda.pm.org/entry/2017-03-09-01.html" />
@@ -94,8 +94,8 @@
 </tr>
 <tr>
 <td style="text-align:left;"> 20:30〜20:35 </td>
-<td style="text-align:left;"> LT: undef </td>
-<td style="text-align:left;"> undef </td>
+<td style="text-align:left;"> LT: dokechin </td>
+<td style="text-align:left;"> 誰でもDWHを実現したいのだ！！グラフ描写用APIの仕様と実装 </td>
 </tr>
 <tr>
 <td style="text-align:left;"> 20:35〜20:40 </td>
@@ -133,7 +133,7 @@
 ]]></content>
 <id>tag:gotanda.pm.org,2017-03-09:entry-2017-03-09-01.html</id>
 <published>2017-03-09T14:38:19+09:00</published>
-<updated>2017-03-09T14:38:19+09:00</updated>
+<updated>2017-03-10T14:47:22+09:00</updated>
 </entry>
 <entry>
 <title type="text">Gotanda.pm #10 を開催します</title>
