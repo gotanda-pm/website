@@ -4,7 +4,7 @@ Gotanda.pm とは
 =======================================================
 五反田(東京)を拠点とした技術コミュニティです。
 以下の目的のもと、小規模なカンファレンスの開催、Slackによる交流などを中心とした活動を行います。
-不明な点、技術的な相談等は[Slack](https://slackin-gotanda-pm.herokuapp.com/)にて行います。
+不明な点、技術的な相談等は[Slack](https://slackin-gotanda-pm.now.sh/)にて行います。
 
 目的
 -------------------------------------------------------
@@ -43,9 +43,9 @@ Googleカレンダーを登録するだけでは参加はできかねますの�
 
 LINE@
 -------------------------------------------------------
-Gotanda.pmのLINE@もあります。  
-カンファレンスなどの開催情報を配信するほか、参加登録や懇親会参加費の支払いなどをLINE上で完結できるようになる予定です。  
-<a href="https://line.me/R/ti/p/%40btk6607y"><img height="36" border="0" alt="友だち追加数" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" /></a>  
+Gotanda.pmのLINE@もあります。
+カンファレンスなどの開催情報を配信するほか、参加登録や懇親会参加費の支払いなどをLINE上で完結できるようになる予定です。
+<a href="https://line.me/R/ti/p/%40btk6607y"><img height="36" border="0" alt="友だち追加数" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" /></a>
 <img src="http://qr-official.line.me/L/8dRQU-4H70.png" />
 
 Contribute
