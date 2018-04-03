@@ -34,20 +34,6 @@ Gotanda.pm とは
     * 相談が気軽に行える
     * 経験的に雑談のなかで技術的な相談を行うと問題の解決が早い
 
-Googleカレンダー
--------------------------------------------------------
-近日の活動予定をいちはやく知りたい方は[Googleカレンダー](https://www.google.com/calendar/embed?src=sfv70iikm6dpj7anvu0m0jjt1s%40group.calendar.google.com&ctz=Asia/Tokyo)をご登録下さい。
-日程が決まり次第、Googleカレンダーに登録致します。
-注意点として、カンファレンスは会場候補のキャパシティに上限がある為、他のカンファレンスと同様にATND等で事前参加登録を行う予定です。
-Googleカレンダーを登録するだけでは参加はできかねますのでご注意下さい。(ATND等へのリンクを記載致しますのでそちらよりご登録下さい。)
-
-LINE@
--------------------------------------------------------
-Gotanda.pmのLINE@もあります。
-カンファレンスなどの開催情報を配信するほか、参加登録や懇親会参加費の支払いなどをLINE上で完結できるようになる予定です。
-<a href="https://line.me/R/ti/p/%40btk6607y"><img height="36" border="0" alt="友だち追加数" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" /></a>
-<img src="http://qr-official.line.me/L/8dRQU-4H70.png" />
-
 Contribute
 =======================================================
 Gotanda.pmは有志により運営されるコミュニティです。

@@ -30,7 +30,6 @@
               <li><a href="<: uri_for('/about.html')    :>">About</a></li>
               <li><a href="<: uri_for('/atom.xml')      :>">RSS</a></li>
               <li><a href="<: uri_for('/archives.html') :>">Archive</a></li>
-              <li><a href="https://www.google.com/calendar/embed?src=sfv70iikm6dpj7anvu0m0jjt1s%40group.calendar.google.com&ctz=Asia/Tokyo">Calendar</a></li>
               <li><a href="https://github.com/gotanda-pm/">Github</a></li>
             </ul>
           </nav>
